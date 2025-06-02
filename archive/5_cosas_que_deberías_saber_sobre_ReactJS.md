@@ -2,9 +2,9 @@
 idx: '006'
 title: '5 cosas que deberías saber sobre ReactJS'
 date: '2020-08-17'
-timage: '../images/archive/006/0.png'
+timage: 'https://github.com/makinox/storageGarage/blob/main/images/blog/006/0.png'
 author: 'Jesús David Bossa'
-authorImage: '../images/author/photo.JPG'
+authorImage: 'https://github.com/makinox/storageGarage/blob/main/images/general/me.jpeg'
 authorDescription: 'Arquitecto de software, intentando crear cosas geniales.'
 tags: ['Tecnologia', 'Desarrollo', '5-minutos']
 ---
@@ -17,7 +17,7 @@ Yo también me he sentido conmovido por esas preguntas y quisiera ayudarte a com
 
 ## Es muy fácil de aprender
 
-![Creando un componente](../images/archive/006/1.png)
+![Creando un componente](https://github.com/makinox/storageGarage/blob/main/images/blog/006/1.png)
 
 <div>
 
@@ -31,7 +31,7 @@ Al manejar una sintaxis muy sencilla cualquier desarrollador podría empezar a d
 
 ## Componentes reutilizables
 
-![Reutilizando un componente](../images/archive/006/2.png)
+![Reutilizando un componente](https://github.com/makinox/storageGarage/blob/main/images/blog/006/2.png)
 
 <div>
 
@@ -45,7 +45,7 @@ Tan fácil como crear un botón y utilizarlo en diferentes vistas incluso pudié
 
 ## Renderizados más rápidos con el VirtualDOM
 
-![Virtual DOM](../images/archive/006/3.png)
+![Virtual DOM](https://github.com/makinox/storageGarage/blob/main/images/blog/006/3.png)
 
 <div >
 
@@ -61,7 +61,7 @@ En esta <a target="_blank" href="https://developer.mozilla.org/es/docs/DOM">docu
 
 ## Una comunidad muy fuerte
 
-![ReactJS Web](../images/archive/006/4.png)
+![ReactJS Web](https://github.com/makinox/storageGarage/blob/main/images/blog/006/4.png)
 
 <div >
 
@@ -73,7 +73,7 @@ A los desarrolladores les encanta React, se ve en todos los <a target="_blank" h
 
 ## Herramientas de desarrollo
 
-![React Developer Tools](../images/archive/006/5.jpg)
+![React Developer Tools](https://github.com/makinox/storageGarage/blob/main/images/blog/006/5.jpg)
 
 <div >
 

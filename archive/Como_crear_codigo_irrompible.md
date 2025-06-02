@@ -2,9 +2,9 @@
 idx: '013'
 title: 'Como crear código irrompible'
 date: '2022-11-10'
-timage: '../images/archive/013/0.png'
+timage: 'https://github.com/makinox/storageGarage/blob/main/images/blog/013/0.jpg'
 author: 'Jesús David Bossa'
-authorImage: '../images/author/photo.JPG'
+authorImage: 'https://github.com/makinox/storageGarage/blob/main/images/general/me.jpeg'
 authorDescription: 'Arquitecto de software, intentando crear cosas geniales.'
 tags: ['Opinión', 'charla', 'meetup']
 ---
@@ -17,14 +17,6 @@ En resumidas cuentas, es un código que se rompe, básicamente que el compilador
 
 Bueno, cuando escribimos código muchas cosas de la que normalmente hacemos está expuesto a errores, unas más que otras, incluso ocasiones que no son provocadas por los desarrolladores o usuarios, por ejemplo tengamos en cuenta el siguiente ejemplo.
 
-![Flujo normal de una app](../images/archive/013/1.png)
-
-<div>
-
-_Flujo normal de una app_
-
-</div>
-
 Un simple request verdad, queremos actualizar nuestra edad en una red social, entonces el back-end recibe el request del fornt-end, luego válida que los datos estén bien, luego haga el cambio en la base de datos y por último nos responda que todo fue bien, nada raro, pero en cualquiera de todos esos puntos el ejemplo podría fallar, ya sea la conexión a internet, datos incompletos, etc.
 
 Entonces como manejamos casos de error, dependiendo el lenguaje, hay varias opciones, try/catch, promise catch, lo que viene siendo manejo de excepciones.
@@ -34,14 +26,6 @@ Entonces como manejamos casos de error, dependiendo el lenguaje, hay varias opci
 Esta forma de manejar excepciones fue implementada hace mucho tiempo atrás en [los 60](https://en.wikipedia.org/wiki/Exception_handling#History), empezó en lisp, fue lo suficientemente popular como para que los lenguajes de programación de la época decidirán implementarlo también.
 
 ¿Por qué creo que esta no es la mejor idea? Bueno pasa que en esta estructura.
-
-![Try / catch y la railway oriented programming](../images/archive/013/2.png)
-
-<div>
-
-_Try / catch y la railway oriented programming_
-
-</div>
 
 `TRY` ejecuta el happy path, todo lo que debería pasar si todo sale bien, si no se ejecuta él `CATCH`, el control de la excepción.
 

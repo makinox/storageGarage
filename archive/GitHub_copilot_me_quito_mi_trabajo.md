@@ -2,9 +2,9 @@
 idx: '009'
 title: 'GitHub copilot me quito mi trabajo'
 date: '2021-07-10'
-timage: '../images/archive/009/0.png'
+timage: 'https://github.com/makinox/storageGarage/blob/main/images/blog/009/0.png'
 author: 'Jesús David Bossa'
-authorImage: '../images/author/photo.JPG'
+authorImage: 'https://github.com/makinox/storageGarage/blob/main/images/general/me.jpeg'
 authorDescription: 'Arquitecto de software, intentando crear cosas geniales.'
 tags: ['Tecnologia', 'Desarrollo', '5-minutos', 'Opinión']
 ---

@@ -2,9 +2,9 @@
 idx: '004'
 title: 'Como saber si eres un buen desarrollador'
 date: '2020-06-15'
-timage: '../images/archive/004/0.jpg'
+timage: https://github.com/makinox/storageGarage/blob/main/images/blog/004/0.jpg
 author: 'Jesús David Bossa'
-authorImage: '../images/author/photo.JPG'
+authorImage: 'https://github.com/makinox/storageGarage/blob/main/images/general/me.jpeg'
 authorDescription: 'Arquitecto de software, intentando crear cosas geniales.'
 tags: ['Tecnologia', 'Desarrollo', '5-minutos']
 ---
@@ -15,7 +15,7 @@ En mi camino a ser desarrollador también me he sentido conmovido por estas preg
 
 ## Concéntrate, especialízate en una tecnología a la vez
 
-![Unsplash: Johannes Plenio](../images/archive/004/1.jpg)
+![Unsplash: Johannes Plenio](https://github.com/makinox/storageGarage/blob/main/images/blog/004/1.jpg)
 
 <div>
 
@@ -33,7 +33,7 @@ Si tu meta es obtener un trabajo lo más pronto posible, se valora más demostra
 
 ## La práctica hace al maestro
 
-![Unsplash: Daniel Chekalov](../images/archive/004/2.jpg)
+![Unsplash: Daniel Chekalov](https://github.com/makinox/storageGarage/blob/main/images/blog/004/2.jpg)
 
 <div>
 
@@ -49,7 +49,7 @@ Una manera de motivarse a practicar es compartiendo eso que te gusta, ya sea en 
 
 ## Aprende como funciona tu mundo
 
-![Unsplash: Tom Ritson](../images/archive/004/3.jpg)
+![Unsplash: Tom Ritson](https://github.com/makinox/storageGarage/blob/main/images/blog/004/3.jpg)
 
 <div>
 
@@ -65,7 +65,7 @@ Si te gustaría más ser independiente no deberías descuidar este punto, es cla
 
 ## Reconoce tus cualidades no técnicas
 
-![Unsplash: Brooke Cagle](../images/archive/004/4.jpg)
+![Unsplash: Brooke Cagle](https://github.com/makinox/storageGarage/blob/main/images/blog/004/4.jpg)
 
 <div>
 
@@ -81,7 +81,7 @@ Asegúrate en ser la persona con la que te gustaría trabajar, más allá de la 
 
 ## Nunca te rindas, todo tiene solución
 
-![Unsplash: Justin Luebke](../images/archive/004/5.jpg)
+![Unsplash: Justin Luebke](https://github.com/makinox/storageGarage/blob/main/images/blog/004/5.jpg)
 
 <div>
 
@@ -94,4 +94,4 @@ Las personas exitosas nunca se rinden, parece más fácil decirlo que hacerlo, s
 El camino del desarrollador como todo, tiene muchos obstáculos, pero simplemente intentándolo lo puedes superar, todo tiene su solución, incluso lo que nadie ha logrado.
 
 Con el suficiente estudio e incluso un poco de suerte puedes lograr cualquier cosa que te propongas.
-Te invito a intentarlo, me gustaría saber qué opinas al respecto, háblame en <a href="https://twitter.com/jesMakinox" target="_blank">Twitter</a>, estaré muy feliz de responderte.
+Te invito a intentarlo, me gustaría saber qué opinas al respecto, háblame en <a href="https://jesusbossa.dev" target="_blank">Twitter</a>, estaré muy feliz de responderte.

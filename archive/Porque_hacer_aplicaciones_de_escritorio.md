@@ -2,9 +2,9 @@
 idx: '007'
 title: '¿Por qué hacer aplicaciones de escritorio en 2021?'
 date: '2021-06-19'
-timage: '../images/archive/007/0.png'
+timage: 'https://github.com/makinox/storageGarage/blob/main/images/blog/007/0.png'
 author: 'Jesús David Bossa'
-authorImage: '../images/author/photo.JPG'
+authorImage: 'https://github.com/makinox/storageGarage/blob/main/images/general/me.jpeg'
 authorDescription: 'Arquitecto de software, intentando crear cosas geniales.'
 tags: ['Tecnologia', 'Desarrollo', 'Apps', 'Aplicaciones', '5-minutos']
 ---

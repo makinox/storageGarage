@@ -2,9 +2,9 @@
 idx: '010'
 title: '5 consejos que te mejoran la vida'
 date: '2021-07-14'
-timage: '../images/archive/010/0.jpg'
+timage: 'https://github.com/makinox/storageGarage/blob/main/images/blog/010/0.jpg'
 author: 'Jesús David Bossa'
-authorImage: '../images/author/photo.JPG'
+authorImage: 'https://github.com/makinox/storageGarage/blob/main/images/general/me.jpeg'
 authorDescription: 'Arquitecto de software, intentando crear cosas geniales.'
 tags: ['Opinión', '5-minutos', 'Wellness', 'Bienestar']
 ---
