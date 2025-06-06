@@ -2,9 +2,9 @@
 idx: '004'
 title: 'Como saber si eres un buen desarrollador'
 date: '2020-06-15'
-timage: https://github.com/makinox/storageGarage/blob/main/images/blog/004/0.jpg
+timage: https://github.com/makinox/storageGarage/blob/main/images/blog/004/0.jpg?raw=true
 author: 'Jesús David Bossa'
-authorImage: 'https://github.com/makinox/storageGarage/blob/main/images/general/me.jpeg'
+authorImage: 'https://github.com/makinox/storageGarage/blob/main/images/general/me.jpeg?raw=true'
 authorDescription: 'Arquitecto de software, intentando crear cosas geniales.'
 tags: ['Tecnologia', 'Desarrollo', '5-minutos']
 ---
@@ -15,7 +15,7 @@ En mi camino a ser desarrollador también me he sentido conmovido por estas preg
 
 ## Concéntrate, especialízate en una tecnología a la vez
 
-![Unsplash: Johannes Plenio](https://github.com/makinox/storageGarage/blob/main/images/blog/004/1.jpg)
+![Unsplash: Johannes Plenio](https://github.com/makinox/storageGarage/blob/main/images/blog/004/1.jpg?raw=true)
 
 <div>
 
@@ -33,7 +33,7 @@ Si tu meta es obtener un trabajo lo más pronto posible, se valora más demostra
 
 ## La práctica hace al maestro
 
-![Unsplash: Daniel Chekalov](https://github.com/makinox/storageGarage/blob/main/images/blog/004/2.jpg)
+![Unsplash: Daniel Chekalov](https://github.com/makinox/storageGarage/blob/main/images/blog/004/2.jpg?raw=true)
 
 <div>
 
@@ -49,7 +49,7 @@ Una manera de motivarse a practicar es compartiendo eso que te gusta, ya sea en 
 
 ## Aprende como funciona tu mundo
 
-![Unsplash: Tom Ritson](https://github.com/makinox/storageGarage/blob/main/images/blog/004/3.jpg)
+![Unsplash: Tom Ritson](https://github.com/makinox/storageGarage/blob/main/images/blog/004/3.jpg?raw=true)
 
 <div>
 
@@ -65,7 +65,7 @@ Si te gustaría más ser independiente no deberías descuidar este punto, es cla
 
 ## Reconoce tus cualidades no técnicas
 
-![Unsplash: Brooke Cagle](https://github.com/makinox/storageGarage/blob/main/images/blog/004/4.jpg)
+![Unsplash: Brooke Cagle](https://github.com/makinox/storageGarage/blob/main/images/blog/004/4.jpg?raw=true)
 
 <div>
 
@@ -81,7 +81,7 @@ Asegúrate en ser la persona con la que te gustaría trabajar, más allá de la 
 
 ## Nunca te rindas, todo tiene solución
 
-![Unsplash: Justin Luebke](https://github.com/makinox/storageGarage/blob/main/images/blog/004/5.jpg)
+![Unsplash: Justin Luebke](https://github.com/makinox/storageGarage/blob/main/images/blog/004/5.jpg?raw=true)
 
 <div>
 

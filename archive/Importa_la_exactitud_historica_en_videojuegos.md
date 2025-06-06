@@ -2,9 +2,9 @@
 idx: '005'
 title: '¿Importa la exactitud histórica en videojuegos?'
 date: '2020-06-20'
-timage: 'https://github.com/makinox/storageGarage/blob/main/images/blog/005/0.png'
+timage: 'https://github.com/makinox/storageGarage/blob/main/images/blog/005/0.png?raw=true'
 author: 'Jesús David Bossa'
-authorImage: 'https://github.com/makinox/storageGarage/blob/main/images/general/me.jpeg'
+authorImage: 'https://github.com/makinox/storageGarage/blob/main/images/general/me.jpeg?raw=true'
 authorDescription: 'Arquitecto de software, intentando crear cosas geniales.'
 tags: ['Videojuegos', '5-minutos', 'Juegos']
 ---
@@ -17,7 +17,7 @@ Dependiendo de el videojuego se pueden encontrar muchas exactitudes y por supues
 
 ## Yo creo que si
 
-![Red dead redemption 2](https://github.com/makinox/storageGarage/blob/main/images/blog/005/2.png)
+![Red dead redemption 2](https://github.com/makinox/storageGarage/blob/main/images/blog/005/2.png?raw=true)
 
 <div>
 
@@ -37,7 +37,7 @@ Por lo tanto, podríamos organizar este tipo de videojuegos en los siguientes ti
 
 ## Equilibrio
 
-![Assassins creed: syndicate](https://github.com/makinox/storageGarage/blob/main/images/blog/005/3.png)
+![Assassins creed: syndicate](https://github.com/makinox/storageGarage/blob/main/images/blog/005/3.png?raw=true)
 
 <div>
 
@@ -53,7 +53,7 @@ La cantidad de detalle en los periodos temporales en que se desarrollan suelen s
 
 ## Prioridad: historia
 
-![L.A. Noire](https://github.com/makinox/storageGarage/blob/main/images/blog/005/6.jpg)
+![L.A. Noire](https://github.com/makinox/storageGarage/blob/main/images/blog/005/6.jpg?raw=true)
 
 <div>
 
@@ -69,7 +69,7 @@ Se hace evidente en este tipo de juegos que se hizo una gran cantidad de investi
 
 ## Jugabilidad como arma
 
-![Battlefield 1](https://github.com/makinox/storageGarage/blob/main/images/blog/005/7.jpg)
+![Battlefield 1](https://github.com/makinox/storageGarage/blob/main/images/blog/005/7.jpg?raw=true)
 
 <div>
 
@@ -85,7 +85,7 @@ Los modos de juego suelen ser lo mas destacable de estos títulos, muchas veces 
 
 ## Inspiración
 
-![Hellblade](https://github.com/makinox/storageGarage/blob/main/images/blog/005/5.png)
+![Hellblade](https://github.com/makinox/storageGarage/blob/main/images/blog/005/5.png?raw=true)
 
 <div>
 

@@ -2,9 +2,9 @@
 idx: '012'
 title: 'Lo valioso de ver a la gente de tu alrededor emprender'
 date: '2021-08-20'
-timage: 'https://github.com/makinox/storageGarage/blob/main/images/blog/012/0.jpg'
+timage: 'https://github.com/makinox/storageGarage/blob/main/images/blog/012/0.jpg?raw=true'
 author: 'Jesús David Bossa'
-authorImage: 'https://github.com/makinox/storageGarage/blob/main/images/general/me.jpeg'
+authorImage: 'https://github.com/makinox/storageGarage/blob/main/images/general/me.jpeg?raw=true'
 authorDescription: 'Arquitecto de software, intentando crear cosas geniales.'
 tags: ['Opinión', '5-minutos', 'Wellness', 'Bienestar', 'review']
 ---
