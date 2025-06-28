@@ -3,7 +3,7 @@ idx: '005'
 title: '¿Importa la exactitud histórica en videojuegos?'
 date: '2020-06-20'
 timage: 'https://github.com/makinox/storageGarage/blob/main/images/blog/005/0.png?raw=true'
-author: 'Jesús David Bossa'
+author: 'Jesús Bossa'
 authorImage: 'https://github.com/makinox/storageGarage/blob/main/images/general/me.jpeg?raw=true'
 authorDescription: 'Arquitecto de software, intentando crear cosas geniales.'
 tags: ['Videojuegos', '5-minutos', 'Juegos']

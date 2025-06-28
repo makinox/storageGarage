@@ -3,7 +3,7 @@ idx: '013'
 title: 'Como crear código irrompible'
 date: '2022-11-10'
 timage: 'https://github.com/makinox/storageGarage/blob/main/images/blog/013/0.jpg?raw=true'
-author: 'Jesús David Bossa'
+author: 'Jesús Bossa'
 authorImage: 'https://github.com/makinox/storageGarage/blob/main/images/general/me.jpeg?raw=true'
 authorDescription: 'Arquitecto de software, intentando crear cosas geniales.'
 tags: ['Opinión', 'charla', 'meetup']
