@@ -1,0 +1,128 @@
+name: Manual Deploy Projects
+
+on:
+  workflow_dispatch:
+    inputs:
+      deploy_portfolio:
+        description: 'Deploy Portfolio'
+        required: false
+        default: false
+        type: boolean
+      deploy_blog:
+        description: 'Deploy Blog'
+        required: false
+        default: false
+        type: boolean
+      force_deploy:
+        description: 'Force deploy even if no changes detected'
+        required: false
+        default: false
+        type: boolean
+
+jobs:
+  # Deploy Portfolio
+  deploy-portfolio:
+    if: ${{ inputs.deploy_portfolio == 'true' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout portfolio repository
+        uses: actions/checkout@v4
+        with:
+          repository: makinox/portfolio
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build project
+        run: npm run build
+
+      - name: Deploy to Firebase
+        uses: FirebaseExtended/action-hosting-deploy@v0
+        with:
+          repoToken: '${{ secrets.GITHUB_TOKEN }}'
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_PORTFOLIO }}'
+          channelId: live
+          projectId: ${{ secrets.FIREBASE_PROJECT_ID_PORTFOLIO }}
+
+      - name: Notify deployment
+        run: |
+          echo "✅ Portfolio deployed successfully!"
+          echo "🌐 Live at: https://jesusbossa.dev"
+
+  # Deploy Blog
+  deploy-blog:
+    if: ${{ inputs.deploy_blog == 'true' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout blog repository
+        uses: actions/checkout@v4
+        with:
+          repository: makinox/blog-board
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build project
+        run: npm run build
+
+      - name: Deploy to Firebase
+        uses: FirebaseExtended/action-hosting-deploy@v0
+        with:
+          repoToken: '${{ secrets.GITHUB_TOKEN }}'
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_BLOG }}'
+          channelId: live
+          projectId: ${{ secrets.FIREBASE_PROJECT_ID_BLOG }}
+
+      - name: Notify deployment
+        run: |
+          echo "✅ Blog deployed successfully!"
+          echo "🌐 Live at: https://voib.jesusbossa.dev"
+
+  # Summary job
+  summary:
+    needs: [deploy-portfolio, deploy-blog]
+    runs-on: ubuntu-latest
+    if: always()
+    steps:
+      - name: Manual Deployment Summary
+        run: |
+          echo "## 🚀 Manual Deploy Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Deploy Options Selected:**" >> $GITHUB_STEP_SUMMARY
+          echo "- Portfolio: ${{ inputs.deploy_portfolio }}" >> $GITHUB_STEP_SUMMARY
+          echo "- Blog: ${{ inputs.deploy_blog }}" >> $GITHUB_STEP_SUMMARY
+          echo "- Force Deploy: ${{ inputs.force_deploy }}" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          
+          if [[ "${{ inputs.deploy_portfolio }}" == "true" ]]; then
+            if [[ "${{ needs.deploy-portfolio.result }}" == "success" ]]; then
+              echo "✅ **Portfolio**: Deployed successfully" >> $GITHUB_STEP_SUMMARY
+            else
+              echo "❌ **Portfolio**: Deployment failed" >> $GITHUB_STEP_SUMMARY
+            fi
+          fi
+          
+          if [[ "${{ inputs.deploy_blog }}" == "true" ]]; then
+            if [[ "${{ needs.deploy-blog.result }}" == "success" ]]; then
+              echo "✅ **Blog**: Deployed successfully" >> $GITHUB_STEP_SUMMARY
+            else
+              echo "❌ **Blog**: Deployment failed" >> $GITHUB_STEP_SUMMARY
+            fi
+          fi
+          
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Triggered by:** Manual workflow dispatch" >> $GITHUB_STEP_SUMMARY 

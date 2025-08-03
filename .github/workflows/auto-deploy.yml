@@ -1,0 +1,147 @@
+name: Auto Deploy Projects
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'staticDbs/portfolioData.json'
+      - 'images/portfolio/**'
+      - 'archive/**'
+      - 'images/blog/**'
+
+jobs:
+  # Job para detectar qué proyectos necesitan deploy
+  detect-changes:
+    runs-on: ubuntu-latest
+    outputs:
+      portfolio-changed: ${{ steps.changes.outputs.portfolio }}
+      blog-changed: ${{ steps.changes.outputs.blog }}
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Detect changes
+        id: changes
+        run: |
+          # Detectar cambios en archivos del portfolio
+          if git diff --name-only HEAD~1 | grep -E "staticDbs/portfolioData\.json|images/portfolio/" > /dev/null; then
+            echo "portfolio=true" >> $GITHUB_OUTPUT
+          else
+            echo "portfolio=false" >> $GITHUB_OUTPUT
+          fi
+          
+          # Detectar cambios en archivos del blog
+          if git diff --name-only HEAD~1 | grep -E "archive/|images/blog/" > /dev/null; then
+            echo "blog=true" >> $GITHUB_OUTPUT
+          else
+            echo "blog=false" >> $GITHUB_OUTPUT
+          fi
+
+  # Deploy Portfolio
+  deploy-portfolio:
+    needs: detect-changes
+    if: needs.detect-changes.outputs.portfolio-changed == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout portfolio repository
+        uses: actions/checkout@v4
+        with:
+          repository: makinox/portfolio
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build project
+        run: npm run build
+
+      - name: Deploy to Firebase
+        uses: FirebaseExtended/action-hosting-deploy@v0
+        with:
+          repoToken: '${{ secrets.GITHUB_TOKEN }}'
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_PORTFOLIO }}'
+          channelId: live
+          projectId: ${{ secrets.FIREBASE_PROJECT_ID_PORTFOLIO }}
+
+      - name: Notify deployment
+        run: |
+          echo "✅ Portfolio deployed successfully!"
+          echo "🌐 Live at: https://jesusbossa.dev"
+
+  # Deploy Blog
+  deploy-blog:
+    needs: detect-changes
+    if: needs.detect-changes.outputs.blog-changed == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout blog repository
+        uses: actions/checkout@v4
+        with:
+          repository: makinox/blog-board
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build project
+        run: npm run build
+
+      - name: Deploy to Firebase
+        uses: FirebaseExtended/action-hosting-deploy@v0
+        with:
+          repoToken: '${{ secrets.GITHUB_TOKEN }}'
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_BLOG }}'
+          channelId: live
+          projectId: ${{ secrets.FIREBASE_PROJECT_ID_BLOG }}
+
+      - name: Notify deployment
+        run: |
+          echo "✅ Blog deployed successfully!"
+          echo "🌐 Live at: https://voib.jesusbossa.dev"
+
+  # Summary job
+  summary:
+    needs: [detect-changes, deploy-portfolio, deploy-blog]
+    runs-on: ubuntu-latest
+    if: always()
+    steps:
+      - name: Deployment Summary
+        run: |
+          echo "## 🚀 Auto Deploy Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          
+          if [[ "${{ needs.detect-changes.outputs.portfolio-changed }}" == "true" ]]; then
+            if [[ "${{ needs.deploy-portfolio.result }}" == "success" ]]; then
+              echo "✅ **Portfolio**: Deployed successfully" >> $GITHUB_STEP_SUMMARY
+            else
+              echo "❌ **Portfolio**: Deployment failed" >> $GITHUB_STEP_SUMMARY
+            fi
+          fi
+          
+          if [[ "${{ needs.detect-changes.outputs.blog-changed }}" == "true" ]]; then
+            if [[ "${{ needs.deploy-blog.result }}" == "success" ]]; then
+              echo "✅ **Blog**: Deployed successfully" >> $GITHUB_STEP_SUMMARY
+            else
+              echo "❌ **Blog**: Deployment failed" >> $GITHUB_STEP_SUMMARY
+            fi
+          fi
+          
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Changed files detected:**" >> $GITHUB_STEP_SUMMARY
+          git diff --name-only HEAD~1 | while read file; do
+            echo "- \`$file\`" >> $GITHUB_STEP_SUMMARY
+          done 
