@@ -39,6 +39,10 @@ jobs:
             echo "❌ FIREBASE_PROJECT_ID_PORTFOLIO is not configured"
             exit 1
           fi
+          if [ -z "${{ secrets.PORTFOLIO_SOURCE }}" ]; then
+            echo "❌ PORTFOLIO_SOURCE is not configured"
+            exit 1
+          fi
           echo "✅ All required secrets are configured"
       
       - name: Checkout portfolio repository
@@ -68,6 +72,31 @@ jobs:
           echo ""
           echo "Checking package.json for build scripts:"
           cat package.json | grep -A 5 -B 5 "scripts"
+
+      - name: Check for URL references in code
+        run: |
+          echo "Searching for URL references in source code:"
+          echo "Files with 'fetch' or 'URL':"
+          find src -name "*.astro" -o -name "*.ts" -o -name "*.js" | xargs grep -l -E "(fetch|new URL|import\.meta\.env)" 2>/dev/null || echo "No files found with fetch/URL references"
+          echo ""
+          echo "Files with environment variable usage:"
+          find src -name "*.astro" -o -name "*.ts" -o -name "*.js" | xargs grep -l "import.meta.env" 2>/dev/null || echo "No files found with env usage"
+          echo ""
+          echo "Content of index.astro (first 20 lines):"
+          if [ -f src/pages/index.astro ]; then
+            head -20 src/pages/index.astro
+          else
+            echo "index.astro not found"
+          fi
+
+      - name: Setup environment variables
+        run: |
+          echo "Setting up environment variables for portfolio build..."
+          echo "PORTFOLIO_SOURCE=${{ secrets.PORTFOLIO_SOURCE }}" >> $GITHUB_ENV
+          echo "PUBLIC_PORTFOLIO_SOURCE=${{ secrets.PORTFOLIO_SOURCE }}" >> $GITHUB_ENV
+          echo "Environment variables set:"
+          echo "PORTFOLIO_SOURCE: $PORTFOLIO_SOURCE"
+          echo "PUBLIC_PORTFOLIO_SOURCE: $PUBLIC_PORTFOLIO_SOURCE"
 
       - name: Setup Node.js
         uses: actions/setup-node@v4

@@ -51,6 +51,15 @@ jobs:
           repository: makinox/portfolio
           token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
 
+      - name: Setup environment variables
+        run: |
+          echo "Setting up environment variables for portfolio build..."
+          echo "PORTFOLIO_SOURCE=${{ secrets.PORTFOLIO_SOURCE }}" >> $GITHUB_ENV
+          echo "PUBLIC_PORTFOLIO_SOURCE=${{ secrets.PORTFOLIO_SOURCE }}" >> $GITHUB_ENV
+          echo "Environment variables set:"
+          echo "PORTFOLIO_SOURCE: $PORTFOLIO_SOURCE"
+          echo "PUBLIC_PORTFOLIO_SOURCE: $PUBLIC_PORTFOLIO_SOURCE"
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
