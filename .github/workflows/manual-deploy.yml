@@ -58,6 +58,17 @@ jobs:
             cat package.json | head -10
           fi
 
+      - name: Check environment variables
+        run: |
+          echo "Checking for .env files:"
+          ls -la | grep -E "\.env" || echo "No .env files found"
+          echo ""
+          echo "Checking for environment variables:"
+          env | grep -E "(PUBLIC_|VITE_|ASTRO_)" || echo "No public env vars found"
+          echo ""
+          echo "Checking package.json for build scripts:"
+          cat package.json | grep -A 5 -B 5 "scripts"
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
