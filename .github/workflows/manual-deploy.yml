@@ -22,7 +22,7 @@ on:
 jobs:
   # Deploy Portfolio
   deploy-portfolio:
-    if: ${{ inputs.deploy_portfolio == 'true' }}
+    if: inputs.deploy_portfolio == 'true'
     runs-on: ubuntu-latest
     steps:
       - name: Check secrets configuration
@@ -50,7 +50,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: '20'
           cache: 'npm'
 
       - name: Install dependencies
@@ -74,7 +74,7 @@ jobs:
 
   # Deploy Blog
   deploy-blog:
-    if: ${{ inputs.deploy_blog == 'true' }}
+    if: inputs.deploy_blog == 'true'
     runs-on: ubuntu-latest
     steps:
       - name: Check secrets configuration
@@ -102,7 +102,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: '20'
           cache: 'npm'
 
       - name: Install dependencies
@@ -133,6 +133,11 @@ jobs:
       - name: Manual Deployment Summary
         run: |
           echo "## 🚀 Manual Deploy Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Raw Input Values:**" >> $GITHUB_STEP_SUMMARY
+          echo "- deploy_portfolio: '${{ inputs.deploy_portfolio }}'" >> $GITHUB_STEP_SUMMARY
+          echo "- deploy_blog: '${{ inputs.deploy_blog }}'" >> $GITHUB_STEP_SUMMARY
+          echo "- force_deploy: '${{ inputs.force_deploy }}'" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "**Deploy Options Selected:**" >> $GITHUB_STEP_SUMMARY
           echo "- Portfolio: ${{ inputs.deploy_portfolio }}" >> $GITHUB_STEP_SUMMARY
