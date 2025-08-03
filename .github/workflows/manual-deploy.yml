@@ -25,6 +25,22 @@ jobs:
     if: ${{ inputs.deploy_portfolio == 'true' }}
     runs-on: ubuntu-latest
     steps:
+      - name: Check secrets configuration
+        run: |
+          if [ -z "${{ secrets.PERSONAL_ACCESS_TOKEN }}" ]; then
+            echo "❌ PERSONAL_ACCESS_TOKEN is not configured"
+            exit 1
+          fi
+          if [ -z "${{ secrets.FIREBASE_SERVICE_ACCOUNT_PORTFOLIO }}" ]; then
+            echo "❌ FIREBASE_SERVICE_ACCOUNT_PORTFOLIO is not configured"
+            exit 1
+          fi
+          if [ -z "${{ secrets.FIREBASE_PROJECT_ID_PORTFOLIO }}" ]; then
+            echo "❌ FIREBASE_PROJECT_ID_PORTFOLIO is not configured"
+            exit 1
+          fi
+          echo "✅ All required secrets are configured"
+      
       - name: Checkout portfolio repository
         uses: actions/checkout@v4
         with:
@@ -61,6 +77,22 @@ jobs:
     if: ${{ inputs.deploy_blog == 'true' }}
     runs-on: ubuntu-latest
     steps:
+      - name: Check secrets configuration
+        run: |
+          if [ -z "${{ secrets.PERSONAL_ACCESS_TOKEN }}" ]; then
+            echo "❌ PERSONAL_ACCESS_TOKEN is not configured"
+            exit 1
+          fi
+          if [ -z "${{ secrets.FIREBASE_SERVICE_ACCOUNT_BLOG }}" ]; then
+            echo "❌ FIREBASE_SERVICE_ACCOUNT_BLOG is not configured"
+            exit 1
+          fi
+          if [ -z "${{ secrets.FIREBASE_PROJECT_ID_BLOG }}" ]; then
+            echo "❌ FIREBASE_PROJECT_ID_BLOG is not configured"
+            exit 1
+          fi
+          echo "✅ All required secrets are configured"
+      
       - name: Checkout blog repository
         uses: actions/checkout@v4
         with:
@@ -111,6 +143,8 @@ jobs:
           if [[ "${{ inputs.deploy_portfolio }}" == "true" ]]; then
             if [[ "${{ needs.deploy-portfolio.result }}" == "success" ]]; then
               echo "✅ **Portfolio**: Deployed successfully" >> $GITHUB_STEP_SUMMARY
+            elif [[ "${{ needs.deploy-portfolio.result }}" == "skipped" ]]; then
+              echo "⚠️ **Portfolio**: Job skipped - check configuration" >> $GITHUB_STEP_SUMMARY
             else
               echo "❌ **Portfolio**: Deployment failed" >> $GITHUB_STEP_SUMMARY
             fi
@@ -119,10 +153,18 @@ jobs:
           if [[ "${{ inputs.deploy_blog }}" == "true" ]]; then
             if [[ "${{ needs.deploy-blog.result }}" == "success" ]]; then
               echo "✅ **Blog**: Deployed successfully" >> $GITHUB_STEP_SUMMARY
+            elif [[ "${{ needs.deploy-blog.result }}" == "skipped" ]]; then
+              echo "⚠️ **Blog**: Job skipped - check configuration" >> $GITHUB_STEP_SUMMARY
             else
               echo "❌ **Blog**: Deployment failed" >> $GITHUB_STEP_SUMMARY
             fi
           fi
           
           echo "" >> $GITHUB_STEP_SUMMARY
-          echo "**Triggered by:** Manual workflow dispatch" >> $GITHUB_STEP_SUMMARY 
+          echo "**Triggered by:** Manual workflow dispatch" >> $GITHUB_STEP_SUMMARY
+          
+          # Debug information
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Debug Info:**" >> $GITHUB_STEP_SUMMARY
+          echo "- Portfolio result: ${{ needs.deploy-portfolio.result }}" >> $GITHUB_STEP_SUMMARY
+          echo "- Blog result: ${{ needs.deploy-blog.result }}" >> $GITHUB_STEP_SUMMARY 
