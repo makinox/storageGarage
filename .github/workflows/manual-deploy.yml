@@ -47,6 +47,17 @@ jobs:
           repository: makinox/portfolio
           token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
 
+      - name: Debug checkout
+        run: |
+          echo "Current directory: $(pwd)"
+          echo "Repository contents:"
+          ls -la
+          echo "Package.json exists: $(test -f package.json && echo 'YES' || echo 'NO')"
+          if [ -f package.json ]; then
+            echo "Package.json content:"
+            cat package.json | head -10
+          fi
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
@@ -98,6 +109,17 @@ jobs:
         with:
           repository: makinox/blog-board
           token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+
+      - name: Debug checkout
+        run: |
+          echo "Current directory: $(pwd)"
+          echo "Repository contents:"
+          ls -la
+          echo "Package.json exists: $(test -f package.json && echo 'YES' || echo 'NO')"
+          if [ -f package.json ]; then
+            echo "Package.json content:"
+            cat package.json | head -10
+          fi
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
