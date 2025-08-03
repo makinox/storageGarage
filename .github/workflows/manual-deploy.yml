@@ -22,7 +22,7 @@ on:
 jobs:
   # Deploy Portfolio
   deploy-portfolio:
-    if: inputs.deploy_portfolio == 'true'
+    if: ${{ inputs.deploy_portfolio }}
     runs-on: ubuntu-latest
     steps:
       - name: Check secrets configuration
@@ -74,7 +74,7 @@ jobs:
 
   # Deploy Blog
   deploy-blog:
-    if: inputs.deploy_blog == 'true'
+    if: ${{ inputs.deploy_blog }}
     runs-on: ubuntu-latest
     steps:
       - name: Check secrets configuration
