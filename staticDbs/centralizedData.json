@@ -2,19 +2,19 @@
   "people": [
     {
       "name": "Alessandra Portugal",
-      "src": "https://storage.googleapis.com/personal-makinox/images/people/people2.jpeg",
+      "src": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/people/people2.jpeg?raw=true",
       "place": "Crehana",
       "text": "Three words to describe Jesus: innovative, accountable, and multifaceted. During our time working together, he showed those 3 characteristics, while we were developing a Desktop App, embracing uncertainty and finding solutions for a timely delivery. Thanks to that we managed to launch it successfully to the market, learned to use new technologies, and set the basis for other similar projects. He was also constantly researching and experimenting with new technologies and design tools. I would recommend him to any company that is not afraid of exploring the unknown and challenging the status quo!"
     },
     {
       "name": "Fernando Antonio Llinás Giraldo",
-      "src": "https://storage.googleapis.com/personal-makinox/images/people/people1.jpeg",
+      "src": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/people/people1.jpeg?raw=true",
       "place": "SOLUNTECH",
       "text": "Innovation and learning is his personal hallmark. He is always willing to give more than 100%. As a professional, he is open to feedback and taking on new challenges.  If you hired him, you will won not only a great asset, also astonishing human being."
     },
     {
       "name": "Fernando Florez",
-      "src": "https://storage.googleapis.com/personal-makinox/images/people/people3.jpeg",
+      "src": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/people/people3.jpeg?raw=true",
       "place": "iSofact",
       "text": "It was something exciting to work with Jesus. He was a good lead and he was always willing to help me when I needed. He has a significant experience in Frontend, experience that allowed us to create great products."
     }
@@ -24,333 +24,460 @@
       "title": "Blog",
       "repo": "https://github.com/makinox/blog",
       "app": "https://voib.jesusbossa.dev/",
-      "imageSrc": "https://storage.googleapis.com/personal-makinox/images/projects/project12.jpeg",
+      "imageSrc": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/projects/project12.jpeg?raw=true",
       "imageAlt": "Blog por Jesus bossa",
-      "techList": ["React", "Gatsby", "GraphQl"],
+      "techList": [
+        "React",
+        "Gatsby",
+        "GraphQl"
+      ],
       "kind": "Web"
     },
     {
       "title": "BarranquillaJS Agent",
       "repo": "https://github.com/makinox/barranquillajs-agent",
       "app": "https://agentjs.jesusbossa.dev/",
-      "imageSrc": "https://storage.googleapis.com/personal-makinox/images/projects/project34.png",
+      "imageSrc": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/projects/project34.png?raw=true",
       "imageAlt": "BarranquillaJS IA Agent por Jesus bossa",
-      "techList": ["React", "Astro", "Langchain"],
+      "techList": [
+        "React",
+        "Astro",
+        "Langchain"
+      ],
       "kind": "IA"
     },
     {
       "title": "Invaders Game",
       "repo": "https://github.com/makinox/invaders-game",
       "app": "https://invaders.jesusbossa.dev/",
-      "imageSrc": "https://storage.googleapis.com/personal-makinox/images/projects/project25.jpeg",
+      "imageSrc": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/projects/project25.jpeg?raw=true",
       "imageAlt": "Juego de invasores por Jesus bossa",
-      "techList": ["Vanilla", "Kaboom"],
+      "techList": [
+        "Vanilla",
+        "Kaboom"
+      ],
       "kind": "Game"
     },
     {
       "title": "Crehana Desktop",
       "repo": "",
       "app": "https://www.crehana.com/apps",
-      "imageSrc": "https://storage.googleapis.com/personal-makinox/images/projects/project22.jpeg",
+      "imageSrc": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/projects/project22.jpeg?raw=true",
       "imageAlt": "Crehana desktop maintained by jesus bossa",
-      "techList": ["Typescript", "Electron", "React"],
+      "techList": [
+        "Typescript",
+        "Electron",
+        "React"
+      ],
       "kind": "Native"
     },
     {
       "title": "Eden PACS",
       "repo": "",
       "app": "https://edenmed.com/pacs",
-      "imageSrc": "https://storage.googleapis.com/personal-makinox/images/projects/projectpacs.webp",
+      "imageSrc": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/projects/projectpacs.webp?raw=true",
       "imageAlt": "Eva pacs maintained by jesus bossa",
-      "techList": ["Typescript", "React"],
+      "techList": [
+        "Typescript",
+        "React"
+      ],
       "kind": "Web"
     },
     {
       "title": "Workshop: Data analysis, Server components",
       "repo": "https://github.com/makinox/Workshop-Data-analisis-cloud-server-components",
       "app": "https://data-workshop.jesusbossa.dev/",
-      "imageSrc": "https://storage.googleapis.com/personal-makinox/images/projects/project31.jpeg",
+      "imageSrc": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/projects/project31.jpeg?raw=true",
       "imageAlt": "Workshop: Developing a football season analysis website using google sheets and firebase hosting by Jesus Bossa",
-      "techList": ["NextJS", "Google Sheets"],
+      "techList": [
+        "NextJS",
+        "Google Sheets"
+      ],
       "kind": "Web"
     },
     {
       "title": "BarranquillaJS",
       "repo": "https://github.com/barranquillajs/official-page",
       "app": "https://barranquillajs.org/",
-      "imageSrc": "https://storage.googleapis.com/personal-makinox/images/projects/project-barranquillajs.webp",
+      "imageSrc": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/projects/project-barranquillajs.webp?raw=true",
       "imageAlt": "BarranquillaJs page by Jesus Bossa",
-      "techList": ["Astro", "TailwindCSS"],
+      "techList": [
+        "Astro",
+        "TailwindCSS"
+      ],
       "kind": "Web"
     },
     {
       "title": "CaribeDev",
       "repo": "https://github.com/Caribe-Dev/caribe-page",
       "app": "https://caribedev.org/",
-      "imageSrc": "https://storage.googleapis.com/personal-makinox/images/projects/project-caribedev.webp",
+      "imageSrc": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/projects/project-caribedev.webp?raw=true",
       "imageAlt": "Caribedev page mantained by Jesus Bossa",
-      "techList": ["NextJS", "TailwindCSS"],
+      "techList": [
+        "NextJS",
+        "TailwindCSS"
+      ],
       "kind": "Web"
     },
     {
       "title": "Eden management system",
       "repo": "",
       "app": "https://edenmed.com/management",
-      "imageSrc": "https://storage.googleapis.com/personal-makinox/images/projects/project-management.webp",
+      "imageSrc": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/projects/project-management.webp?raw=true",
       "imageAlt": "Eden management app mantained by Jesus Bossa",
-      "techList": ["Nx", "React", "TailwindCSS"],
+      "techList": [
+        "Nx",
+        "React",
+        "TailwindCSS"
+      ],
       "kind": "Web"
     },
     {
       "title": "Random",
       "repo": "https://github.com/makinox/random",
       "app": "https://random.jesusbossa.dev/",
-      "imageSrc": "https://storage.googleapis.com/personal-makinox/images/projects/project32.jpeg",
+      "imageSrc": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/projects/project32.jpeg?raw=true",
       "imageAlt": "Random por jesus bossa  ",
-      "techList": ["NextJS", "DaisyUI", "TailwindCSS"],
+      "techList": [
+        "NextJS",
+        "DaisyUI",
+        "TailwindCSS"
+      ],
       "kind": "Web"
     },
     {
       "title": "Shopping",
       "repo": "https://github.com/makinox/vendure-material-ui-test",
       "app": "https://64a45033f689af007bedfc33--flourishing-mermaid-2850c7.netlify.app/",
-      "imageSrc": "https://storage.googleapis.com/personal-makinox/images/projects/project33.jpeg",
+      "imageSrc": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/projects/project33.jpeg?raw=true",
       "imageAlt": "Shopping por jesus bossa  ",
-      "techList": ["Vendure", "MaterialUI"],
+      "techList": [
+        "Vendure",
+        "MaterialUI"
+      ],
       "kind": "Web"
     },
     {
       "title": "Roomes",
       "repo": "https://github.com/makinox/roomes",
       "app": "https://roomes.jesusbossa.dev/",
-      "imageSrc": "https://storage.googleapis.com/personal-makinox/images/projects/project23.jpeg",
+      "imageSrc": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/projects/project23.jpeg?raw=true",
       "imageAlt": "Roomes por Jesus bossa",
-      "techList": ["Svelte", "Typescript"],
+      "techList": [
+        "Svelte",
+        "Typescript"
+      ],
       "kind": "Web"
     },
     {
       "title": "Space-weight",
       "repo": "https://github.com/makinox/space-weight",
       "app": "https://space-weight.jesusbossa.dev/",
-      "imageSrc": "https://storage.googleapis.com/personal-makinox/images/projects/project26.jpeg",
+      "imageSrc": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/projects/project26.jpeg?raw=true",
       "imageAlt": "Space-weight por Jesus bossa",
-      "techList": ["NextJS", "React", "Typescript", "3D"],
+      "techList": [
+        "NextJS",
+        "React",
+        "Typescript",
+        "3D"
+      ],
       "kind": "Web"
     },
     {
       "title": "Limons",
       "repo": "https://github.com/makinox/nimonx",
       "app": "https://limons.jesusbossa.dev/",
-      "imageSrc": "https://storage.googleapis.com/personal-makinox/images/projects/project27.jpeg",
+      "imageSrc": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/projects/project27.jpeg?raw=true",
       "imageAlt": "Limons por Jesus bossa",
-      "techList": ["NextJS", "React", "Typescript", "3D"],
+      "techList": [
+        "NextJS",
+        "React",
+        "Typescript",
+        "3D"
+      ],
       "kind": "Web"
     },
     {
       "title": "D Task",
       "repo": "https://github.com/makinox/solid-contract",
       "app": "",
-      "imageSrc": "https://storage.googleapis.com/personal-makinox/images/projects/project24.jpeg",
+      "imageSrc": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/projects/project24.jpeg?raw=true",
       "imageAlt": "D Task dapp por Jesus bossa",
-      "techList": ["Vanilla", "Solidity", "Blockchain"],
+      "techList": [
+        "Vanilla",
+        "Solidity",
+        "Blockchain"
+      ],
       "kind": "Web"
     },
     {
       "title": "Makinox-g11n",
       "repo": "https://github.com/makinox/makinox-g11n",
       "app": "",
-      "imageSrc": "https://storage.googleapis.com/personal-makinox/images/projects/project30.jpeg",
+      "imageSrc": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/projects/project30.jpeg?raw=true",
       "imageAlt": "Makinox-g11n libreria por Jesus bossa",
-      "techList": ["Typescript", "React", "Nx"],
+      "techList": [
+        "Typescript",
+        "React",
+        "Nx"
+      ],
       "kind": "Library"
     },
     {
       "title": "Makinox-image-creator",
       "repo": "https://github.com/makinox/makinox-image-creator",
       "app": "https://www.npmjs.com/package/@makinox/image-creator",
-      "imageSrc": "https://storage.googleapis.com/personal-makinox/images/projects/project21.jpeg",
+      "imageSrc": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/projects/project21.jpeg?raw=true",
       "imageAlt": "Makinox-image-creator libreria por Jesus bossa",
-      "techList": ["Typescript"],
+      "techList": [
+        "Typescript"
+      ],
       "kind": "Library"
     },
     {
       "title": "Makinox-tools",
       "repo": "https://github.com/makinox/tools",
       "app": "https://www.npmjs.com/package/@makinox/tools",
-      "imageSrc": "https://storage.googleapis.com/personal-makinox/images/projects/project28.jpeg",
+      "imageSrc": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/projects/project28.jpeg?raw=true",
       "imageAlt": "Makinox-utils libreria por Jesus bossa",
-      "techList": ["Rust", "Web Assembly"],
+      "techList": [
+        "Rust",
+        "Web Assembly"
+      ],
       "kind": "Library"
     },
     {
       "title": "Makinox-ui",
       "repo": "https://github.com/makinox/makinox-ui",
       "app": "https://makinox-ui.jesusbossa.dev",
-      "imageSrc": "https://storage.googleapis.com/personal-makinox/images/projects/project20.jpeg",
+      "imageSrc": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/projects/project20.jpeg?raw=true",
       "imageAlt": "Makinox-ui libreria por Jesus bossa",
-      "techList": ["React", "Gatsby", "GraphQl"],
+      "techList": [
+        "React",
+        "Gatsby",
+        "GraphQl"
+      ],
       "kind": "Library"
     },
     {
       "title": "Preview",
       "repo": "https://github.com/makinox/shVideo",
       "app": "https://preview.jesusbossa.dev/",
-      "imageSrc": "https://storage.googleapis.com/personal-makinox/images/projects/project14.jpeg",
+      "imageSrc": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/projects/project14.jpeg?raw=true",
       "imageAlt": "App de videos por Jesus bossa",
-      "techList": ["Angular", "Custom", "PWA"],
+      "techList": [
+        "Angular",
+        "Custom",
+        "PWA"
+      ],
       "kind": "Web"
     },
     {
       "title": "Snake Game",
       "repo": "https://github.com/makinox/Snake-game",
       "app": "https://snake.jesusbossa.dev/",
-      "imageSrc": "https://storage.googleapis.com/personal-makinox/images/projects/project16.jpeg",
+      "imageSrc": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/projects/project16.jpeg?raw=true",
       "imageAlt": "Juego de la culebrita por Jesus bossa",
-      "techList": ["Vanilla"],
+      "techList": [
+        "Vanilla"
+      ],
       "kind": "Game"
     },
     {
       "title": "Memory Game",
       "repo": "https://github.com/makinox/Memory-game",
       "app": "https://memory.jesusbossa.dev/",
-      "imageSrc": "https://storage.googleapis.com/personal-makinox/images/projects/project15.jpeg",
+      "imageSrc": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/projects/project15.jpeg?raw=true",
       "imageAlt": "Juego de memoria por Jesus bossa",
-      "techList": ["Vanilla"],
+      "techList": [
+        "Vanilla"
+      ],
       "kind": "Game"
     },
     {
       "title": "Moose",
       "repo": "https://github.com/makinox/Moose",
       "app": "https://play.google.com/store/apps/details?id=moose.jesusbossa.dev",
-      "imageSrc": "https://storage.googleapis.com/personal-makinox/images/projects/project13.jpg",
+      "imageSrc": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/projects/project13.jpg?raw=true",
       "imageAlt": "Museo interactivo por Jesus bossa",
-      "techList": ["React-Native", "Gatsby", "GraphQl"],
+      "techList": [
+        "React-Native",
+        "Gatsby",
+        "GraphQl"
+      ],
       "kind": "Native"
     },
     {
       "title": "Best pizza",
       "repo": "https://github.com/makinox/Best-pizza",
       "app": "https://bpizza.jesusbossa.dev",
-      "imageSrc": "https://storage.googleapis.com/personal-makinox/images/projects/project19.jpeg",
+      "imageSrc": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/projects/project19.jpeg?raw=true",
       "imageAlt": "Aplicacion de pizza por Jesus bossa",
-      "techList": ["React"],
+      "techList": [
+        "React"
+      ],
       "kind": "Old"
     },
     {
       "title": "Cereno",
       "repo": "https://github.com/makinox/Cereno",
       "app": "https://cereno.jesusbossa.dev/",
-      "imageSrc": "https://storage.googleapis.com/personal-makinox/images/projects/project11.jpeg",
+      "imageSrc": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/projects/project11.jpeg?raw=true",
       "imageAlt": "Aplicacion de restaurantes por Jesus bossa",
-      "techList": ["React", "Gatsby", "GraphQl"],
+      "techList": [
+        "React",
+        "Gatsby",
+        "GraphQl"
+      ],
       "kind": "Web"
     },
     {
       "title": "Thumb",
       "repo": "https://github.com/makinox/Thumb",
       "app": "https://thumb.jesusbossa.dev/",
-      "imageSrc": "https://storage.googleapis.com/personal-makinox/images/projects/project18.jpeg",
+      "imageSrc": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/projects/project18.jpeg?raw=true",
       "imageAlt": "Aplicacion de votos por Jesus bossa",
-      "techList": ["React"],
+      "techList": [
+        "React"
+      ],
       "kind": "Old"
     },
     {
       "title": "Vtask",
       "repo": "https://github.com/makinox/vtask",
       "app": "https://vtask.jesusbossa.dev/",
-      "imageSrc": "https://storage.googleapis.com/personal-makinox/images/projects/project17.jpeg",
+      "imageSrc": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/projects/project17.jpeg?raw=true",
       "imageAlt": "Aplicacion de tareas por Jesus bossa",
-      "techList": ["Vue"],
+      "techList": [
+        "Vue"
+      ],
       "kind": "Web"
     },
     {
       "title": "Petigram",
       "repo": "https://github.com/makinox/petigram",
       "app": "https://petgram-front-makinox.makinoxx.now.sh/",
-      "imageSrc": "https://storage.googleapis.com/personal-makinox/images/projects/project10.png",
+      "imageSrc": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/projects/project10.png?raw=true",
       "imageAlt": "Aplicacion de mascotas por Jesus bossa",
-      "techList": ["React", "Hooks", "GraphQl"],
+      "techList": [
+        "React",
+        "Hooks",
+        "GraphQl"
+      ],
       "kind": "Old"
     },
     {
       "title": "Darys",
       "repo": "",
       "app": "https://play.google.com/store/apps/details?id=com.darys.jesusbossa",
-      "imageSrc": "https://storage.googleapis.com/personal-makinox/images/projects/project7.jpg",
+      "imageSrc": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/projects/project7.jpg?raw=true",
       "imageAlt": "Aplicacion de diario y notas por Jesus bossa",
-      "techList": ["Ionic", "Capacitor", "Angular"],
+      "techList": [
+        "Ionic",
+        "Capacitor",
+        "Angular"
+      ],
       "kind": "Native"
     },
     {
       "title": "Factiffy",
       "repo": "",
       "app": "https://play.google.com/store/apps/details?id=com.jesusbossa.factiffy",
-      "imageSrc": "https://storage.googleapis.com/personal-makinox/images/projects/project8.jpg",
+      "imageSrc": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/projects/project8.jpg?raw=true",
       "imageAlt": "Aplicacion de red social por Jesus bossa",
-      "techList": ["Ionic", "Cordova", "Angular"],
+      "techList": [
+        "Ionic",
+        "Cordova",
+        "Angular"
+      ],
       "kind": "Native"
     },
     {
       "title": "Financial",
       "repo": "https://github.com/makinox/financial",
       "app": "",
-      "imageSrc": "https://storage.googleapis.com/personal-makinox/images/projects/project9.jpeg",
+      "imageSrc": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/projects/project9.jpeg?raw=true",
       "imageAlt": "Aplicacion de finanzas por Jesus bossa",
-      "techList": ["Ios", "Storyboards", "Pods"],
+      "techList": [
+        "Ios",
+        "Storyboards",
+        "Pods"
+      ],
       "kind": "Native"
     },
     {
       "title": "Priorize",
       "repo": "https://github.com/makinox/priorize",
       "app": "https://priorize.jesusbossa.dev/",
-      "imageSrc": "https://storage.googleapis.com/personal-makinox/images/projects/project4.jpeg",
+      "imageSrc": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/projects/project4.jpeg?raw=true",
       "imageAlt": "Aplicacion para tareas basicas por Jesus bossa",
-      "techList": ["ReactJS", "PWA"],
+      "techList": [
+        "ReactJS",
+        "PWA"
+      ],
       "kind": "Old"
     },
     {
       "title": "Trips",
       "repo": "https://github.com/makinox/flutter-trips",
       "app": "https://drive.google.com/open?id=16xQ6AhcL--BtdMiLrOAjFTo5G4kvPevU",
-      "imageSrc": "https://storage.googleapis.com/personal-makinox/images/projects/project6.jpeg",
+      "imageSrc": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/projects/project6.jpeg?raw=true",
       "imageAlt": "Aplicacion de viajes por Jesus bossa",
-      "techList": ["Flutter", "BLoC"],
+      "techList": [
+        "Flutter",
+        "BLoC"
+      ],
       "kind": "Old"
     },
     {
       "title": "MovieApp",
       "repo": "https://github.com/makinox/moviePlayer",
       "app": "https://exp-shell-app-assets.s3.us-west-1.amazonaws.com/android/%40makinox/movieplayer-7392818119eeadcbdd885a0622b7063e-signed.apk",
-      "imageSrc": "https://storage.googleapis.com/personal-makinox/images/projects/project5.png",
+      "imageSrc": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/projects/project5.png?raw=true",
       "imageAlt": "Aplicacion para ver trailers de peliculas por Jesus bossa",
-      "techList": ["React-native", "Redux"],
+      "techList": [
+        "React-native",
+        "Redux"
+      ],
       "kind": "Old"
     },
     {
       "title": "Utopia",
       "repo": "",
       "app": "https://utopia1.herokuapp.com",
-      "imageSrc": "https://storage.googleapis.com/personal-makinox/images/projects/project3.jpg",
+      "imageSrc": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/projects/project3.jpg?raw=true",
       "imageAlt": "Aplicacion de utopia creada por Jesus bossa",
-      "techList": ["VanillaJS", "PWA"],
+      "techList": [
+        "VanillaJS",
+        "PWA"
+      ],
       "kind": "Old"
     },
     {
       "title": "Inventario",
       "repo": "",
       "app": "https://inventory.regypos.com",
-      "imageSrc": "https://storage.googleapis.com/personal-makinox/images/projects/project2.jpg",
+      "imageSrc": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/projects/project2.jpg?raw=true",
       "imageAlt": "Inventario creado por Jesus bossa",
-      "techList": ["React", "Redux", "Bootstrap", "PWA"],
+      "techList": [
+        "React",
+        "Redux",
+        "Bootstrap",
+        "PWA"
+      ],
       "kind": "Old"
     },
     {
       "title": "Regypos",
       "repo": "",
       "app": "https://www.regypos.com",
-      "imageSrc": "https://storage.googleapis.com/personal-makinox/images/projects/project1.jpg",
+      "imageSrc": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/projects/project1.jpg?raw=true",
       "imageAlt": "Regypos creado por Jesus bossa",
-      "techList": ["React", "Bootstrap", "PWA"],
+      "techList": [
+        "React",
+        "Bootstrap",
+        "PWA"
+      ],
       "kind": "Old"
     }
   ],
@@ -447,7 +574,7 @@
       "time": "Jun 13 2024",
       "repo": "https://drive.google.com/drive/folders/1kngfuXQdrsddyE1NvwjWKzClyj1YR7gT",
       "link": "https://www.instagram.com/p/C761bgYuj_y/",
-      "image": "https://storage.googleapis.com/personal-makinox/images/talks/talk1.jpeg"
+      "image": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/talks/talk1.jpe?raw=trueg"
     },
     {
       "title": "3 veces que el código abierto salvo el mundo",
@@ -496,7 +623,7 @@
       "place": "Eva",
       "timeCount": "Currently since March 2022",
       "link": "https://evacenter.com/",
-      "image": "https://storage.googleapis.com/personal-makinox/images/work/work1.jpeg"
+      "image": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/work/work1.jpe?raw=trueg"
     },
     {
       "job": "Product Engineer",
@@ -510,57 +637,56 @@
       "place": "Caribe dev",
       "timeCount": "Currently since October 2022",
       "link": "https://caribedev.org",
-      "image": "https://storage.googleapis.com/personal-makinox/images/work/work9.jpeg"
+      "image": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/work/work9.jpe?raw=trueg"
     },
     {
       "job": "Community organizer",
       "place": "BarranquillaJS",
       "timeCount": "Currently since June 2019",
       "link": "https://barranquillajs.org",
-      "image": "https://storage.googleapis.com/personal-makinox/images/work/work8.jpeg"
+      "image": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/work/work8.jpe?raw=trueg"
     },
     {
       "job": "Front End Developer",
       "place": "Crehana",
       "timeCount": "1 year and 1 month",
       "link": "https://www.crehana.com/",
-      "image": "https://storage.googleapis.com/personal-makinox/images/work/work2.jpeg"
+      "image": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/work/work2.jpe?raw=trueg"
     },
     {
       "job": "Front End Developer",
       "place": "Soluntech",
       "timeCount": "9 months",
       "link": "https://soluntech.com/",
-      "image": "https://storage.googleapis.com/personal-makinox/images/work/work3.jpeg"
+      "image": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/work/work3.jpe?raw=trueg"
     },
     {
       "job": "Full Stack Developer",
       "place": "iSofact",
       "timeCount": "2 years and 6 months",
       "link": "https://www.isofact.com/",
-      "image": "https://storage.googleapis.com/personal-makinox/images/work/work4.jpeg"
+      "image": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/work/work4.jpe?raw=trueg"
     },
-
     {
       "job": "Acting CEO",
       "place": "Jezsy",
       "timeCount": "1 year and 1 month",
       "link": "https://www.linkedin.com/in/makinox/details/experience/",
-      "image": "https://storage.googleapis.com/personal-makinox/images/work/work5.jpeg"
+      "image": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/work/work5.jpe?raw=trueg"
     },
     {
       "job": "Software Developer Lead",
       "place": "RegyPOS",
       "timeCount": "4 months",
       "link": "https://empresite.eleconomistaamerica.co/REGISTRADORAS-EQUIPOS-CARIBE-SAS.html",
-      "image": "https://storage.googleapis.com/personal-makinox/images/work/work6.jpeg"
+      "image": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/work/work6.jpe?raw=trueg"
     },
     {
       "job": "System assistant engineer",
       "place": "GRUPO COLBA",
       "timeCount": "6 months",
       "link": "https://www.grupocolba.com.co/",
-      "image": "https://storage.googleapis.com/personal-makinox/images/work/work7.jpeg"
+      "image": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/work/work7.jpe?raw=trueg"
     }
   ]
 }
