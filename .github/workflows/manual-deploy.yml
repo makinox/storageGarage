@@ -62,33 +62,6 @@ jobs:
             cat package.json | head -10
           fi
 
-      - name: Check environment variables
-        run: |
-          echo "Checking for .env files:"
-          ls -la | grep -E "\.env" || echo "No .env files found"
-          echo ""
-          echo "Checking for environment variables:"
-          env | grep -E "(PUBLIC_|VITE_|ASTRO_)" || echo "No public env vars found"
-          echo ""
-          echo "Checking package.json for build scripts:"
-          cat package.json | grep -A 5 -B 5 "scripts"
-
-      - name: Check for URL references in code
-        run: |
-          echo "Searching for URL references in source code:"
-          echo "Files with 'fetch' or 'URL':"
-          find src -name "*.astro" -o -name "*.ts" -o -name "*.js" | xargs grep -l -E "(fetch|new URL|import\.meta\.env)" 2>/dev/null || echo "No files found with fetch/URL references"
-          echo ""
-          echo "Files with environment variable usage:"
-          find src -name "*.astro" -o -name "*.ts" -o -name "*.js" | xargs grep -l "import.meta.env" 2>/dev/null || echo "No files found with env usage"
-          echo ""
-          echo "Content of index.astro (first 20 lines):"
-          if [ -f src/pages/index.astro ]; then
-            head -20 src/pages/index.astro
-          else
-            echo "index.astro not found"
-          fi
-
       - name: Setup environment variables
         run: |
           echo "Setting up environment variables for portfolio build..."
@@ -123,7 +96,6 @@ jobs:
           echo "✅ Portfolio deployed successfully!"
           echo "🌐 Live at: https://jesusbossa.dev"
 
-  # Deploy Blog
   deploy-blog:
     if: ${{ inputs.deploy_blog }}
     runs-on: ubuntu-latest
@@ -140,6 +112,10 @@ jobs:
           fi
           if [ -z "${{ secrets.FIREBASE_PROJECT_ID_BLOG }}" ]; then
             echo "❌ FIREBASE_PROJECT_ID_BLOG is not configured"
+            exit 1
+          fi
+          if [ -z "${{ secrets.PUBLIC_API_ORIGIN }}" ]; then
+            echo "❌ PUBLIC_API_ORIGIN is not configured"
             exit 1
           fi
           echo "✅ All required secrets are configured"
@@ -160,6 +136,13 @@ jobs:
             echo "Package.json content:"
             cat package.json | head -10
           fi
+
+      - name: Setup environment variables for blog
+        run: |
+          echo "Setting up environment variables for blog build..."
+          echo "PUBLIC_API_ORIGIN=${{ secrets.PUBLIC_API_ORIGIN }}" >> $GITHUB_ENV
+          echo "Environment variables set:"
+          echo "PUBLIC_API_ORIGIN: $PUBLIC_API_ORIGIN"
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -186,7 +169,6 @@ jobs:
           echo "✅ Blog deployed successfully!"
           echo "🌐 Live at: https://voib.jesusbossa.dev"
 
-  # Summary job
   summary:
     needs: [deploy-portfolio, deploy-blog]
     runs-on: ubuntu-latest

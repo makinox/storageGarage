@@ -10,7 +10,6 @@ on:
       - 'images/blog/**'
 
 jobs:
-  # Job para detectar qué proyectos necesitan deploy
   detect-changes:
     runs-on: ubuntu-latest
     outputs:
@@ -25,21 +24,18 @@ jobs:
       - name: Detect changes
         id: changes
         run: |
-          # Detectar cambios en archivos del portfolio
           if git diff --name-only HEAD~1 | grep -E "staticDbs/portfolioData\.json|images/portfolio/" > /dev/null; then
             echo "portfolio=true" >> $GITHUB_OUTPUT
           else
             echo "portfolio=false" >> $GITHUB_OUTPUT
           fi
           
-          # Detectar cambios en archivos del blog
           if git diff --name-only HEAD~1 | grep -E "archive/|images/blog/" > /dev/null; then
             echo "blog=true" >> $GITHUB_OUTPUT
           else
             echo "blog=false" >> $GITHUB_OUTPUT
           fi
 
-  # Deploy Portfolio
   deploy-portfolio:
     needs: detect-changes
     if: needs.detect-changes.outputs.portfolio-changed == 'true'
@@ -85,7 +81,6 @@ jobs:
           echo "✅ Portfolio deployed successfully!"
           echo "🌐 Live at: https://jesusbossa.dev"
 
-  # Deploy Blog
   deploy-blog:
     needs: detect-changes
     if: needs.detect-changes.outputs.blog-changed == 'true'
@@ -96,6 +91,13 @@ jobs:
         with:
           repository: makinox/blog-board
           token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+
+      - name: Setup environment variables for blog
+        run: |
+          echo "Setting up environment variables for blog build..."
+          echo "PUBLIC_API_ORIGIN=${{ secrets.PUBLIC_API_ORIGIN }}" >> $GITHUB_ENV
+          echo "Environment variables set:"
+          echo "PUBLIC_API_ORIGIN: $PUBLIC_API_ORIGIN"
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -122,7 +124,6 @@ jobs:
           echo "✅ Blog deployed successfully!"
           echo "🌐 Live at: https://voib.jesusbossa.dev"
 
-  # Summary job
   summary:
     needs: [detect-changes, deploy-portfolio, deploy-blog]
     runs-on: ubuntu-latest
