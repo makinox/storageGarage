@@ -12,7 +12,7 @@ tags: ['Pensamiento', 'Texto-libre', 'Filosofía']
 Estamos acostumbrados a caminar por la vida como sonámbulos.  
 Todo lo que vemos lo tomamos por verdad, sin detenernos a pensar de dónde viene, quién lo puso ahí, quién lo inventó y por qué.
 
-Hablo con mis amigos todo el tiempo sobre la vida, sobre lo que creemos, lo que pensamos, lo que sentimos.  
+Hablo con mis amigos todo el tiempo sobre la vida, sobre lo que creemos, lo que pensamos, lo que sentimos, nuestras ideas.  
 ¿Pero hasta qué punto nuestras ideas son realmente nuestras?  
 ¿Cómo saber que lo que creemos no es simplemente lo que otros nos han hecho creer?
 
