@@ -14,7 +14,7 @@ Todo lo que vemos lo tomamos por verdad, sin detenernos a pensar de dónde viene
 
 Hablo con mis amigos todo el tiempo sobre la vida, sobre lo que creemos, lo que pensamos, lo que sentimos, nuestras ideas.  
 ¿Pero hasta qué punto nuestras ideas son realmente nuestras?  
-¿Cómo saber que lo que creemos no es simplemente lo que otros nos han hecho creer?
+¿Cómo saber que lo que creemos no es simplemente lo que otros nos han hecho pensar?
 
 En algún punto, para la mayoría de nosotros, la curiosidad empieza a extinguirse.  
 De niños, todo nos fascina. Hacemos preguntas sin fin, probamos sin miedo, nos arrojamos al mundo sin calcularlo.  
