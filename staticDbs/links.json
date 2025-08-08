@@ -3,17 +3,17 @@
     {
       "title-es": "Portafolio tecnológico",
       "title-en": "Technological portfolio",
-      "url": "https://jesusbossa.dev",
+      "url": "https://portfolio.jesusbossa.dev",
       "sections": [
         {
           "title-es": "Experiencia como arquitecto de software",
           "title-en": "Software architect experience",
-          "url": "https://jesusbossa.dev/#experience"
+          "url": "https://portfolio.jesusbossa.dev/#experience"
         },
         {
           "title-es": "Proyectos internacionales completos",
           "title-en": "International projects completed",
-          "url": "https://jesusbossa.dev/#projects"
+          "url": "https://portfolio.jesusbossa.dev/#projects"
         }
       ]
     },
