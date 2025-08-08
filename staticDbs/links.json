@@ -1,0 +1,43 @@
+{
+  "links": [
+    {
+      "title-es": "Portafolio tecnológico",
+      "title-en": "Technological portfolio",
+      "url": "https://jesusbossa.dev",
+      "sections": [
+        {
+          "title-es": "Experiencia como arquitecto de software",
+          "title-en": "Software architect experience",
+          "url": "https://jesusbossa.dev/#experience"
+        },
+        {
+          "title-es": "Proyectos internacionales completos",
+          "title-en": "International projects completed",
+          "url": "https://jesusbossa.dev/#projects"
+        }
+      ]
+    },
+    {
+      "title-es": "Blogs",
+      "title-en": "Blogs",
+      "url": "https://voib.jesusbossa.dev",
+      "sections": [
+        {
+          "title-es": "Ensayo: La muerte del pensamiento",
+          "title-en": "Essay: The death of thought",
+          "url": "https://voib.jesusbossa.dev/blog/la_muerte_del_pensamiento"
+        },
+        {
+          "title-es": "Ensayo: El mundo que damos por sentado",
+          "title-en": "Essay: The world we take for granted",
+          "url": "https://voib.jesusbossa.dev/blog/el_que_mundo_que_damos_por_sentado"
+        }
+      ]
+    },
+    {
+      "title-es": "Contactame",
+      "title-en": "Contact me",
+      "url": "mailto:x@jesusbossa.dev"
+    }
+  ]
+}
