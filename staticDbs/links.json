@@ -37,7 +37,19 @@
     {
       "title-es": "Contactame",
       "title-en": "Contact me",
-      "url": "mailto:x@jesusbossa.dev"
+      "url": "mailto:x@jesusbossa.dev",
+      "sections": [
+        {
+          "title-es": "Hablemos 15 minutos",
+          "title-en": "Let's talk for 15 minutes",
+          "url": "https://cal.com/jesus-bossa-3m7w94/15min"
+        },
+        {
+          "title-es": "Enviame un correo",
+          "title-en": "Send me an email",
+          "url": "mailto:x@jesusbossa.dev"
+        }
+      ]
     }
   ]
 }
