@@ -1,7 +1,7 @@
 ---
 idx: '016'
 title: '¿Qué grieta secreta atraviesa nuestra alma para que todo lo devoremos sin pensar?'
-date: '2025-08-06'
+date: '2025-08-13'
 timage: 'https://github.com/makinox/storageGarage/blob/main/images/blog/016/0.jpg?raw=true'
 author: 'Jesús Bossa'
 authorImage: 'https://github.com/makinox/storageGarage/blob/main/images/general/me.jpeg?raw=true'
@@ -17,7 +17,7 @@ Las llamamos “compras innecesarias” y reímos, como si la burla pudiera esco
 Si en verdad no las necesitamos, ¿por qué seguimos buscándolas con tanta ansiedad?  
 ¿Son los arquitectos invisibles del marketing, moldeando nuestros deseos?  
 ¿Son las aplicaciones, afinadas como trampas perfectas para nuestra atención?  
-¿O somos nosotros, incapaces de sentarnos en silencio con nuestro propio hambre?
+¿O somos nosotros, incapaces de sentarnos en silencio con nuestra propia existencia?
 
 Quizás no compramos cosas.  
 Quizás compramos alivios momentáneos contra un dolor que aún no sabemos nombrar.
