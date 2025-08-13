@@ -1,7 +1,7 @@
 ---
 idx: '016'
 title: '¿Qué grieta secreta atraviesa nuestra alma para que todo lo devoremos sin pensar?'
-date: '2025-08-13'
+date: '2025-08-14'
 timage: 'https://github.com/makinox/storageGarage/blob/main/images/blog/016/0.jpg?raw=true'
 author: 'Jesús Bossa'
 authorImage: 'https://github.com/makinox/storageGarage/blob/main/images/general/me.jpeg?raw=true'
