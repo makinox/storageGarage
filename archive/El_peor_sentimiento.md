@@ -15,7 +15,7 @@ Para algunas personas tropezarse puede ser una buena razón para enojarse, mient
 
 Sin embargo, hay personas que desarrollan una dinámica interior que los hace crear un sentimiento destructivo y poco reconocido, capaz de envenenar su vida de forma inconsciente.
 
-Entonces interpretan hasta la acción más inocente: como mala, dolorosa, casi maldita.
+Entonces interpretan hasta la acción más inocente como mala, dolorosa, casi maldita.
 
 La conocemos desde niños, en los adultos o en los libros escolares. Sin embargo, con el tiempo la olvidamos, ignoramos sus formas y el daño que puede causarnos.
 
@@ -25,6 +25,6 @@ Confesarle a alguien que le tenemos envidia nos parece algo imposible.
 
 Es el único sentimiento que convierte la alegría ajena en desgracia propia; no busca crecer, busca que el otro caiga.
 
-Cuando no la reconocemos ni la liberamos, la envidia pudre poco a poco nuestro ser, contamina nuestras acciones y mancha de oscuridad nuestra vida.
+Cuando no la reconocemos ni la liberamos, la envidia pudre poco a poco nuestro ser, contamina nuestras acciones. Manchando de oscuridad nuestra vida.
 
 La envidia, que envenena el alma, es la razón de todos los males.
