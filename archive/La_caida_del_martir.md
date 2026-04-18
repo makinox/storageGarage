@@ -1,7 +1,7 @@
 ---
 idx: '020'
 title: 'La caída del mártir'
-date: '2025-08-18'
+date: '2026-04-18'
 timage: 'https://github.com/makinox/storageGarage/blob/main/images/blog/020/0.png?raw=true'
 author: 'Jesús Bossa'
 authorImage: 'https://github.com/makinox/storageGarage/blob/main/images/general/me.jpeg?raw=true'
