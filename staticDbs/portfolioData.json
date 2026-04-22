@@ -569,6 +569,14 @@
   ],
   "talks": [
     {
+      "title": "Finalizó la era dorada de la programación",
+      "event": "IDETEK",
+      "time": "Mar 27 2026",
+      "repo": "",
+      "link": "https://www.eventbrite.co/o/67217601443",
+      "image": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/talks/talk2.png?raw=true"
+    },
+    {
       "title": "El futuro de la tecnología más allá de la IA",
       "event": "Institución Universitaria de Barranquilla",
       "time": "Jun 13 2024",
@@ -621,7 +629,7 @@
     {
       "job": "Front End Developer",
       "place": "Eva",
-      "timeCount": "Currently since March 2022",
+      "timeCount": "3 years and 7 months",
       "link": "https://evacenter.com/",
       "image": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/work/work1.jpeg?raw=true"
     },
@@ -635,14 +643,14 @@
     {
       "job": "Community organizer",
       "place": "Caribe dev",
-      "timeCount": "Currently since October 2022",
+      "timeCount": "2 years and 1 month",
       "link": "https://caribedev.org",
       "image": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/work/work9.jpeg?raw=true"
     },
     {
       "job": "Community organizer",
       "place": "BarranquillaJS",
-      "timeCount": "Currently since June 2019",
+      "timeCount": "6 years",
       "link": "https://barranquillajs.org",
       "image": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/work/work8.jpeg?raw=true"
     },
