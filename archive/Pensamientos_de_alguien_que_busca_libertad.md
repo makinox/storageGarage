@@ -25,7 +25,7 @@ Quizá esa voz que nos fuerza hacia adelante, más que ser el espíritu santo, o
 
 La metacognición es simplemente un simple mecanismo de autodefensa avanzado contra daños que se fortalece cada vez que nos enfrentamos a un dolor y aumenta su capacidad y mejora entre más grande sea el dolor. El suicidio debe ser de las mejores experiencias para ese desarrollo entonces, jeje.
 
-Todos esos humanos a la intemperie hace millones de años, esos cazadores, esos niños en casas traumáticas al enfrentarse al dolor profundo desde temprano crean tanta capacidad de tolerancia al dolor y no le alcanzan a tener tanto miedo a tantas cosas.
+Todos esos humanos a la intemperie hace millones de años, esos cazadores, esos niños en casas traumáticas al enfrentarse al dolor profundo desde temprano crean por eso tanta capacidad de tolerancia al dolor y no le alcanzan a tener tanto miedo a tantas cosas.
 
 Me pregunto si todo este dolor servirá de algo, si habrá un día en que todo este esfuerzo dé sus frutos; espero que sí, sería una tragedia seguir sufriendo tanto en el futuro.
 
