@@ -13,7 +13,7 @@ Toda la energía que tenía hace unos días, en los que tenía fuerzas para dest
 
 Escribo y pienso que soy un rey, que tengo el poder de hacer lo que sea, lo que se me dé la gana; sin embargo, hoy que no quiero hacer nada, hay un sentimiento en mi alma que me dice que debería seguir haciendo, seguir trabajando, seguir adelante haciendo lo que debo hacer para avanzar. ¿Esto qué sentido tiene?
 
-Ahora que precisamente soy libre, que sé que voy a triunfar, porque voy a continuar, claro, sigo teniendo el sentimiento de que no debo desperdiciar ningún momento, que nunca debería dejar de empujar la piedra. No es injusto que ni yo mismo me dé un respiro; camino el sendero de la libertad después de ser un esclavo y aun así me sigo comportando como uno, ahora esclavo de mí mismo.
+Ahora que precisamente soy libre, que sé que voy a triunfar, porque voy a continuar, claro, sigo teniendo el sentimiento de que no debo desperdiciar ningún momento, que nunca debería dejar de empujar la piedra. ¿No es injusto que ni yo mismo me dé un respiro?. Camino el sendero de la libertad después de ser un esclavo y aun así me sigo comportando como uno, ahora esclavo de mí mismo.
 
 Quiero poder descansar, tirarme a hacer nada sin sentir culpa, aunque tenga este sentimiento de que si no trabajo por mí, nunca alcanzaré las cosas que quiero.
 
