@@ -1,5 +1,5 @@
 ---
-idx: '024'
+idx: '025'
 title: 'Cómo dejar de dudar'
 date: '2026-06-16'
 timage: 'https://github.com/makinox/storageGarage/blob/main/images/blog/025/0.png?raw=true'
