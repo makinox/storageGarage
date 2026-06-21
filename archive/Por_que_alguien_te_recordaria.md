@@ -9,7 +9,7 @@ authorDescription: 'Arquitecto de software, intentando crear cosas geniales.'
 tags: ['Pensamiento', 'Texto-libre', 'Filosofía']
 ---
 
-Algo muy difícil de encontrar es una persona que quisiera que no la recordaran. Por dentro de nosotros siempre hay un anhelo de querer que nos lloren el día de nuestra muerte. Como si todos inconscientemente nos hubiéramos puesto de acuerdo en que eso es precisamente un símbolo de que nos quieren en vida.
+Algo muy difícil de encontrar es a una persona que no quisiera que la recordaran. Por dentro de nosotros siempre hay un anhelo de querer que nos lloren el día de nuestra muerte. Como si todos inconscientemente nos hubiéramos puesto de acuerdo en que eso es precisamente un símbolo de que nos quieren en vida.
 
 ¿Quién podría decir lo contrario? ¿Quién podría querer lo contrario? ¿Qué podría querer que no lo quisieran y lo olvidaran?
 
