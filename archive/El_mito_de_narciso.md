@@ -5,7 +5,7 @@ date: '2025-12-24'
 timage: 'https://github.com/makinox/storageGarage/blob/main/images/blog/018/0.jpg?raw=true'
 author: 'Jesús Bossa'
 authorImage: 'https://github.com/makinox/storageGarage/blob/main/images/general/me.jpeg?raw=true'
-authorDescription: 'Arquitecto de software, intentando crear cosas geniales.'
+authorDescription: 'Polímata, intentando crear cosas geniales.'
 tags: ['Mito', 'Ovidio', 'Filosofía', 'Historia']
 ---
 

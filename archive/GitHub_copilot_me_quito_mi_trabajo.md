@@ -5,7 +5,7 @@ date: '2021-07-10'
 timage: 'https://github.com/makinox/storageGarage/blob/main/images/blog/009/0.png?raw=true'
 author: 'Jesús Bossa'
 authorImage: 'https://github.com/makinox/storageGarage/blob/main/images/general/me.jpeg?raw=true'
-authorDescription: 'Arquitecto de software, intentando crear cosas geniales.'
+authorDescription: 'Polímata, intentando crear cosas geniales.'
 tags: ['Tecnologia', 'Desarrollo', '5-minutos', 'Opinión']
 ---
 
