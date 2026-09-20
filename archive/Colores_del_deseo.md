@@ -9,11 +9,11 @@ authorDescription: "Polímata, intentando crear cosas geniales."
 tags: ["Poema", "Texto-libre"]
 ---
 
-A mi mente llega el deseo
-Como un sentimiento colorido y hermoso
+A mi mente llega el deseo,
+como un sentimiento colorido y hermoso.
 
-Se oscurece con el rechazo
-Dejando un rastro ennegrecido y doloroso
+Se oscurece con el rechazo,
+dejando un rastro ennegrecido y doloroso.
 
-Con el tiempo se desvanece
-Vagando así vacío y esperanzoso.
+Con el tiempo se desvanece,
+vagando así vacío y esperanzoso.
