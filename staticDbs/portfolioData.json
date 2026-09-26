@@ -26,11 +26,7 @@
       "app": "https://voib.jesusbossa.dev/",
       "imageSrc": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/projects/project12.jpeg?raw=true",
       "imageAlt": "Blog por Jesus bossa",
-      "techList": [
-        "React",
-        "Gatsby",
-        "GraphQl"
-      ],
+      "techList": ["React", "Gatsby", "GraphQl"],
       "kind": "Web"
     },
     {
@@ -39,11 +35,7 @@
       "app": "https://agentjs.jesusbossa.dev/",
       "imageSrc": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/projects/project34.png?raw=true",
       "imageAlt": "BarranquillaJS IA Agent por Jesus bossa",
-      "techList": [
-        "React",
-        "Astro",
-        "Langchain"
-      ],
+      "techList": ["React", "Astro", "Langchain"],
       "kind": "IA"
     },
     {
@@ -52,10 +44,7 @@
       "app": "https://invaders.jesusbossa.dev/",
       "imageSrc": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/projects/project25.jpeg?raw=true",
       "imageAlt": "Juego de invasores por Jesus bossa",
-      "techList": [
-        "Vanilla",
-        "Kaboom"
-      ],
+      "techList": ["Vanilla", "Kaboom"],
       "kind": "Game"
     },
     {
@@ -64,11 +53,7 @@
       "app": "https://www.crehana.com/apps",
       "imageSrc": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/projects/project22.jpeg?raw=true",
       "imageAlt": "Crehana desktop maintained by jesus bossa",
-      "techList": [
-        "Typescript",
-        "Electron",
-        "React"
-      ],
+      "techList": ["Typescript", "Electron", "React"],
       "kind": "Native"
     },
     {
@@ -77,10 +62,7 @@
       "app": "https://edenmed.com/pacs",
       "imageSrc": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/projects/projectpacs.webp?raw=true",
       "imageAlt": "Eva pacs maintained by jesus bossa",
-      "techList": [
-        "Typescript",
-        "React"
-      ],
+      "techList": ["Typescript", "React"],
       "kind": "Web"
     },
     {
@@ -89,10 +71,7 @@
       "app": "https://data-workshop.jesusbossa.dev/",
       "imageSrc": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/projects/project31.jpeg?raw=true",
       "imageAlt": "Workshop: Developing a football season analysis website using google sheets and firebase hosting by Jesus Bossa",
-      "techList": [
-        "NextJS",
-        "Google Sheets"
-      ],
+      "techList": ["NextJS", "Google Sheets"],
       "kind": "Web"
     },
     {
@@ -101,10 +80,7 @@
       "app": "https://barranquillajs.org/",
       "imageSrc": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/projects/project-barranquillajs.webp?raw=true",
       "imageAlt": "BarranquillaJs page by Jesus Bossa",
-      "techList": [
-        "Astro",
-        "TailwindCSS"
-      ],
+      "techList": ["Astro", "TailwindCSS"],
       "kind": "Web"
     },
     {
@@ -113,10 +89,7 @@
       "app": "https://caribedev.org/",
       "imageSrc": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/projects/project-caribedev.webp?raw=true",
       "imageAlt": "Caribedev page mantained by Jesus Bossa",
-      "techList": [
-        "NextJS",
-        "TailwindCSS"
-      ],
+      "techList": ["NextJS", "TailwindCSS"],
       "kind": "Web"
     },
     {
@@ -125,11 +98,7 @@
       "app": "https://edenmed.com/management",
       "imageSrc": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/projects/project-management.webp?raw=true",
       "imageAlt": "Eden management app mantained by Jesus Bossa",
-      "techList": [
-        "Nx",
-        "React",
-        "TailwindCSS"
-      ],
+      "techList": ["Nx", "React", "TailwindCSS"],
       "kind": "Web"
     },
     {
@@ -138,11 +107,7 @@
       "app": "https://random.jesusbossa.dev/",
       "imageSrc": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/projects/project32.jpeg?raw=true",
       "imageAlt": "Random por jesus bossa  ",
-      "techList": [
-        "NextJS",
-        "DaisyUI",
-        "TailwindCSS"
-      ],
+      "techList": ["NextJS", "DaisyUI", "TailwindCSS"],
       "kind": "Web"
     },
     {
@@ -151,10 +116,7 @@
       "app": "https://64a45033f689af007bedfc33--flourishing-mermaid-2850c7.netlify.app/",
       "imageSrc": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/projects/project33.jpeg?raw=true",
       "imageAlt": "Shopping por jesus bossa  ",
-      "techList": [
-        "Vendure",
-        "MaterialUI"
-      ],
+      "techList": ["Vendure", "MaterialUI"],
       "kind": "Web"
     },
     {
@@ -163,10 +125,7 @@
       "app": "https://roomes.jesusbossa.dev/",
       "imageSrc": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/projects/project23.jpeg?raw=true",
       "imageAlt": "Roomes por Jesus bossa",
-      "techList": [
-        "Svelte",
-        "Typescript"
-      ],
+      "techList": ["Svelte", "Typescript"],
       "kind": "Web"
     },
     {
@@ -175,12 +134,7 @@
       "app": "https://space-weight.jesusbossa.dev/",
       "imageSrc": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/projects/project26.jpeg?raw=true",
       "imageAlt": "Space-weight por Jesus bossa",
-      "techList": [
-        "NextJS",
-        "React",
-        "Typescript",
-        "3D"
-      ],
+      "techList": ["NextJS", "React", "Typescript", "3D"],
       "kind": "Web"
     },
     {
@@ -189,12 +143,7 @@
       "app": "https://limons.jesusbossa.dev/",
       "imageSrc": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/projects/project27.jpeg?raw=true",
       "imageAlt": "Limons por Jesus bossa",
-      "techList": [
-        "NextJS",
-        "React",
-        "Typescript",
-        "3D"
-      ],
+      "techList": ["NextJS", "React", "Typescript", "3D"],
       "kind": "Web"
     },
     {
@@ -203,11 +152,7 @@
       "app": "",
       "imageSrc": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/projects/project24.jpeg?raw=true",
       "imageAlt": "D Task dapp por Jesus bossa",
-      "techList": [
-        "Vanilla",
-        "Solidity",
-        "Blockchain"
-      ],
+      "techList": ["Vanilla", "Solidity", "Blockchain"],
       "kind": "Web"
     },
     {
@@ -216,11 +161,7 @@
       "app": "",
       "imageSrc": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/projects/project30.jpeg?raw=true",
       "imageAlt": "Makinox-g11n libreria por Jesus bossa",
-      "techList": [
-        "Typescript",
-        "React",
-        "Nx"
-      ],
+      "techList": ["Typescript", "React", "Nx"],
       "kind": "Library"
     },
     {
@@ -229,9 +170,7 @@
       "app": "https://www.npmjs.com/package/@makinox/image-creator",
       "imageSrc": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/projects/project21.jpeg?raw=true",
       "imageAlt": "Makinox-image-creator libreria por Jesus bossa",
-      "techList": [
-        "Typescript"
-      ],
+      "techList": ["Typescript"],
       "kind": "Library"
     },
     {
@@ -240,10 +179,7 @@
       "app": "https://www.npmjs.com/package/@makinox/tools",
       "imageSrc": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/projects/project28.jpeg?raw=true",
       "imageAlt": "Makinox-utils libreria por Jesus bossa",
-      "techList": [
-        "Rust",
-        "Web Assembly"
-      ],
+      "techList": ["Rust", "Web Assembly"],
       "kind": "Library"
     },
     {
@@ -252,11 +188,7 @@
       "app": "https://makinox-ui.jesusbossa.dev",
       "imageSrc": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/projects/project20.jpeg?raw=true",
       "imageAlt": "Makinox-ui libreria por Jesus bossa",
-      "techList": [
-        "React",
-        "Gatsby",
-        "GraphQl"
-      ],
+      "techList": ["React", "Gatsby", "GraphQl"],
       "kind": "Library"
     },
     {
@@ -265,11 +197,7 @@
       "app": "https://preview.jesusbossa.dev/",
       "imageSrc": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/projects/project14.jpeg?raw=true",
       "imageAlt": "App de videos por Jesus bossa",
-      "techList": [
-        "Angular",
-        "Custom",
-        "PWA"
-      ],
+      "techList": ["Angular", "Custom", "PWA"],
       "kind": "Web"
     },
     {
@@ -278,9 +206,7 @@
       "app": "https://snake.jesusbossa.dev/",
       "imageSrc": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/projects/project16.jpeg?raw=true",
       "imageAlt": "Juego de la culebrita por Jesus bossa",
-      "techList": [
-        "Vanilla"
-      ],
+      "techList": ["Vanilla"],
       "kind": "Game"
     },
     {
@@ -289,9 +215,7 @@
       "app": "https://memory.jesusbossa.dev/",
       "imageSrc": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/projects/project15.jpeg?raw=true",
       "imageAlt": "Juego de memoria por Jesus bossa",
-      "techList": [
-        "Vanilla"
-      ],
+      "techList": ["Vanilla"],
       "kind": "Game"
     },
     {
@@ -300,11 +224,7 @@
       "app": "https://play.google.com/store/apps/details?id=moose.jesusbossa.dev",
       "imageSrc": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/projects/project13.jpg?raw=true",
       "imageAlt": "Museo interactivo por Jesus bossa",
-      "techList": [
-        "React-Native",
-        "Gatsby",
-        "GraphQl"
-      ],
+      "techList": ["React-Native", "Gatsby", "GraphQl"],
       "kind": "Native"
     },
     {
@@ -313,9 +233,7 @@
       "app": "https://bpizza.jesusbossa.dev",
       "imageSrc": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/projects/project19.jpeg?raw=true",
       "imageAlt": "Aplicacion de pizza por Jesus bossa",
-      "techList": [
-        "React"
-      ],
+      "techList": ["React"],
       "kind": "Old"
     },
     {
@@ -324,11 +242,7 @@
       "app": "https://cereno.jesusbossa.dev/",
       "imageSrc": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/projects/project11.jpeg?raw=true",
       "imageAlt": "Aplicacion de restaurantes por Jesus bossa",
-      "techList": [
-        "React",
-        "Gatsby",
-        "GraphQl"
-      ],
+      "techList": ["React", "Gatsby", "GraphQl"],
       "kind": "Web"
     },
     {
@@ -337,9 +251,7 @@
       "app": "https://thumb.jesusbossa.dev/",
       "imageSrc": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/projects/project18.jpeg?raw=true",
       "imageAlt": "Aplicacion de votos por Jesus bossa",
-      "techList": [
-        "React"
-      ],
+      "techList": ["React"],
       "kind": "Old"
     },
     {
@@ -348,9 +260,7 @@
       "app": "https://vtask.jesusbossa.dev/",
       "imageSrc": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/projects/project17.jpeg?raw=true",
       "imageAlt": "Aplicacion de tareas por Jesus bossa",
-      "techList": [
-        "Vue"
-      ],
+      "techList": ["Vue"],
       "kind": "Web"
     },
     {
@@ -359,11 +269,7 @@
       "app": "https://petgram-front-makinox.makinoxx.now.sh/",
       "imageSrc": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/projects/project10.png?raw=true",
       "imageAlt": "Aplicacion de mascotas por Jesus bossa",
-      "techList": [
-        "React",
-        "Hooks",
-        "GraphQl"
-      ],
+      "techList": ["React", "Hooks", "GraphQl"],
       "kind": "Old"
     },
     {
@@ -372,11 +278,7 @@
       "app": "https://play.google.com/store/apps/details?id=com.darys.jesusbossa",
       "imageSrc": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/projects/project7.jpg?raw=true",
       "imageAlt": "Aplicacion de diario y notas por Jesus bossa",
-      "techList": [
-        "Ionic",
-        "Capacitor",
-        "Angular"
-      ],
+      "techList": ["Ionic", "Capacitor", "Angular"],
       "kind": "Native"
     },
     {
@@ -385,11 +287,7 @@
       "app": "https://play.google.com/store/apps/details?id=com.jesusbossa.factiffy",
       "imageSrc": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/projects/project8.jpg?raw=true",
       "imageAlt": "Aplicacion de red social por Jesus bossa",
-      "techList": [
-        "Ionic",
-        "Cordova",
-        "Angular"
-      ],
+      "techList": ["Ionic", "Cordova", "Angular"],
       "kind": "Native"
     },
     {
@@ -398,11 +296,7 @@
       "app": "",
       "imageSrc": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/projects/project9.jpeg?raw=true",
       "imageAlt": "Aplicacion de finanzas por Jesus bossa",
-      "techList": [
-        "Ios",
-        "Storyboards",
-        "Pods"
-      ],
+      "techList": ["Ios", "Storyboards", "Pods"],
       "kind": "Native"
     },
     {
@@ -411,10 +305,7 @@
       "app": "https://priorize.jesusbossa.dev/",
       "imageSrc": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/projects/project4.jpeg?raw=true",
       "imageAlt": "Aplicacion para tareas basicas por Jesus bossa",
-      "techList": [
-        "ReactJS",
-        "PWA"
-      ],
+      "techList": ["ReactJS", "PWA"],
       "kind": "Old"
     },
     {
@@ -423,10 +314,7 @@
       "app": "https://drive.google.com/open?id=16xQ6AhcL--BtdMiLrOAjFTo5G4kvPevU",
       "imageSrc": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/projects/project6.jpeg?raw=true",
       "imageAlt": "Aplicacion de viajes por Jesus bossa",
-      "techList": [
-        "Flutter",
-        "BLoC"
-      ],
+      "techList": ["Flutter", "BLoC"],
       "kind": "Old"
     },
     {
@@ -435,10 +323,7 @@
       "app": "https://exp-shell-app-assets.s3.us-west-1.amazonaws.com/android/%40makinox/movieplayer-7392818119eeadcbdd885a0622b7063e-signed.apk",
       "imageSrc": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/projects/project5.png?raw=true",
       "imageAlt": "Aplicacion para ver trailers de peliculas por Jesus bossa",
-      "techList": [
-        "React-native",
-        "Redux"
-      ],
+      "techList": ["React-native", "Redux"],
       "kind": "Old"
     },
     {
@@ -447,10 +332,7 @@
       "app": "https://utopia1.herokuapp.com",
       "imageSrc": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/projects/project3.jpg?raw=true",
       "imageAlt": "Aplicacion de utopia creada por Jesus bossa",
-      "techList": [
-        "VanillaJS",
-        "PWA"
-      ],
+      "techList": ["VanillaJS", "PWA"],
       "kind": "Old"
     },
     {
@@ -459,12 +341,7 @@
       "app": "https://inventory.regypos.com",
       "imageSrc": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/projects/project2.jpg?raw=true",
       "imageAlt": "Inventario creado por Jesus bossa",
-      "techList": [
-        "React",
-        "Redux",
-        "Bootstrap",
-        "PWA"
-      ],
+      "techList": ["React", "Redux", "Bootstrap", "PWA"],
       "kind": "Old"
     },
     {
@@ -473,11 +350,7 @@
       "app": "https://www.regypos.com",
       "imageSrc": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/projects/project1.jpg?raw=true",
       "imageAlt": "Regypos creado por Jesus bossa",
-      "techList": [
-        "React",
-        "Bootstrap",
-        "PWA"
-      ],
+      "techList": ["React", "Bootstrap", "PWA"],
       "kind": "Old"
     }
   ],
@@ -527,6 +400,10 @@
       "level": "Proficient"
     },
     {
+      "name": "C++",
+      "level": "Proficient"
+    },
+    {
       "name": "MongoDB",
       "level": "Proficient"
     },
@@ -552,6 +429,14 @@
     },
     {
       "name": "Blockchain",
+      "level": "Beginner"
+    },
+    {
+      "name": "Quantitative Backtesting",
+      "level": "Beginner"
+    },
+    {
+      "name": "Quantitative Development",
       "level": "Beginner"
     },
     {
@@ -627,67 +512,219 @@
   ],
   "work": [
     {
+      "job": "Freelance Software Architect & Quant Developer",
+      "place": "Independent",
+      "timeCount": "Currently since March 2017",
+      "link": "https://jesusbossa.dev/",
+      "image": "https://github.com/makinox/storageGarage/blob/main/images/general/me.jpeg?raw=true",
+      "description": "Designed and implemented software ecosystems combining high-performance C++ services, JavaScript/Node.js backends, automated deployments, and quantitative research for client projects. Built APIs serving 10,000+ users across two frontend applications. Key insights and achievements: - Developed and backtested a quantitative trading strategy in C++, achieving positive results for a client project. - Architected and deployed backend services using Docker, Kubernetes, and Google Cloud Run, creating an automated and scalable deployment workflow. Designed a hybrid API architecture using C++ for performance-critical endpoints and JavaScript/Fastify for services requiring more complex business logic.",
+      "projects": [
+        {
+          "name": "Cloud-Native API Architecture — Docker & Google Cloud Run",
+          "description": "Designed and deployed a distributed backend ecosystem using Docker and Google Cloud Run, with independently deployed API services supporting two frontend applications and 10,000+ users. The architecture combines high-performance C++ services for latency-sensitive endpoints with Node.js/Fastify services for more complex business logic, enabling modular development, independent scaling, and automated deployments.",
+          "image": "https://media.licdn.com/dms/image/v2/D4E2DAQGhU_M2U-Tt0w/profile-treasury-image-shrink_1280_1280/B4EaDZs5eyH8AY-/0/1790358821308?e=1790974800&v=beta&t=L7d14nGY75TFa78g4F7cjqNMEzkSSMkdSKj3zGy16os"
+        },
+        {
+          "name": "Quant Trading Strategy — Backtesting & Live Execution",
+          "description": "Developed and validated a quantitative trading strategy through backtesting and live execution on XAUUSD using C++. The project involved translating trading logic into an automated Expert Advisor, analyzing execution and P&L, and monitoring real-time performance. The strategy generated positive results during the observed testing period, reaching $6,091.83 in cumulative balance.",
+          "image": "https://media.licdn.com/dms/image/v2/D4E2DAQGGiND8U8nmiw/profile-treasury-image-shrink_1920_1920/B4EaDZs5nMH4Ac-/0/1790358821572?e=1790974800&v=beta&t=TdmbFgyeiZB4ch-MCVvzOhcTaPa3x9p_Q2XRJLSL3YY"
+        }
+      ]
+    },
+    {
+      "job": "Founder & Thought Leadership Creator",
+      "place": "Independent",
+      "timeCount": "Currently since August 2025",
+      "link": "https://www.instagram.com/jesusbossa.dev",
+      "image": "https://github.com/makinox/storageGarage/blob/main/images/general/me.jpeg?raw=true",
+      "description": "Built an audience of 4,000+ followers across social media (YouTube, Instagram, and TikTok) through educational and narrative-driven content. Key highlights include: - Created content exploring psychology, philosophy, economics, power dynamics, motivation, and human behavior. - Translated complex ideas into accessible stories and short-form educational content. - Developed a distinctive content framework combining storytelling, intellectual analysis, and practical insights. - Researched and synthesized ideas from philosophy, economics, psychology, and history for a general audience.",
+      "projects": [
+        {
+          "name": "TikTok account",
+          "description": "One interesting thing I learned about TikTok is that building an audience can be more challenging when the content feels overly produced or written. The platform tends to reward authenticity and personality. Through experimentation, I discovered that my most successful videos were the ones where I spoke genuinely and shared ideas from a personal perspective. This taught me how important authenticity, emotional connection, and storytelling are when creating content for short-form video.",
+          "image": "https://media.licdn.com/dms/image/v2/D562DAQGe6IIYLWItTg/profile-treasury-image-shrink_1920_1920/B56aDZWZR5IEAc-/0/1790352922080?e=1790974800&v=beta&t=sy-FjwWg_Ub0kkagKRDSQpssKcN58bNmp8d6oLomd68"
+        },
+        {
+          "name": "Instagram account",
+          "description": "Here, I learned that the algorithm needs to understand who you are and what your content is about before it can consistently connect you with the right audience. Once that connection becomes clearer, you start to see something more valuable than individual viral posts: a community taking shape. I also learned that Instagram can make virality more sustainable when you build trust with your audience. When people feel connected to your ideas, they become the ones who amplify your content.",
+          "image": "https://media.licdn.com/dms/image/v2/D562DAQF3aT468aP0tg/profile-treasury-image-shrink_1920_1920/B56aDZWZO0I0Ak-/0/1790352921870?e=1790974800&v=beta&t=_zkppVs1txkiVcIBgEyuulZd-A9y_zZryb0vf5pM9_Y"
+        },
+        {
+          "name": "YouTube account",
+          "description": "Here, I discovered that YouTube is challenging because viewers actively choose what they want to watch. This taught me that the topic and how you package it are critical. You have to continuously test what people want to learn, then deliver enough value to keep them watching. When you get it right, you build a stronger connection with an audience that intentionally chose your content.",
+          "image": "https://media.licdn.com/dms/image/v2/D562DAQFMRIxoTCnSOg/profile-treasury-image-shrink_1920_1920/B56aDZWZRKGoAk-/0/1790352921972?e=1790974800&v=beta&t=xSDAP_9NCrbqSANKcGCfv8RtEOcdfzhJiz8O9ZVN8Ms"
+        }
+      ]
+    },
+    {
       "job": "Front End Developer",
       "place": "Eva",
       "timeCount": "3 years and 7 months",
       "link": "https://evacenter.com/",
-      "image": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/work/work1.jpeg?raw=true"
-    },
-    {
-      "job": "Product Engineer",
-      "place": "Freelance services",
-      "timeCount": "Currently since March 2017",
-      "link": "https://jesusbossa.dev/",
-      "image": "https://picsum.photos/id/5/80/80"
+      "image": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/work/work1.jpeg?raw=true",
+      "description": "Research and development of web tools for medical professionals. - Led the development of scalable web applications using React and TypeScript. - Designed reusable libraries to enhance development efficiency across projects. - Collaborated with cross-functional teams to implement innovative solutions for medical tools.",
+      "projects": [
+        {
+          "name": "PACS Project",
+          "description": "PACS project is a System for Radiologists and Doctors. Basically, radiologists and doctors face many challenges when it comes to managing and interpreting medical imaging. My work here is developing new measurement functionalities and new ways to observe images, add compatibility for more types of studies, improve performance for different types of devices, make investigation for new features based on scientific papers, etc.",
+          "image": "https://media.licdn.com/dms/image/v2/C562DAQE1PXyNkkE4Ew/profile-treasury-image-shrink_1280_1280/profile-treasury-image-shrink_1280_1280/0/1679157362455?e=1790974800&v=beta&t=V9m0Yd9jV85FJFLSp23sEB0M5VPz63p8QKaQTAIBlTI"
+        },
+        {
+          "name": "Eden design system",
+          "description": "Eden is a design system for the development of all the company software projects. Here I develop component, usable items based on Figma design. Those are the items that we are gonna use in all the company software products.",
+          "image": "https://media.licdn.com/dms/image/v2/C4E2DAQHbM2ELuhBdIA/profile-treasury-image-shrink_1280_1280/profile-treasury-image-shrink_1280_1280/0/1676424093494?e=1790974800&v=beta&t=aZcZMhNBtJRwUIJbZzsDaU2iclhlTeadOXeDpgTDDjA"
+        },
+        {
+          "name": "Eva management",
+          "description": "Eva-management is a web app to manage dates, schedules, payments, people in the medical area. Here I develop the visual components of the app, systems and process of health professionals.",
+          "image": "https://media.licdn.com/dms/image/v2/C4E2DAQEF9QlOZF5Ysg/profile-treasury-image-shrink_1280_1280/profile-treasury-image-shrink_1280_1280/0/1676424058743?e=1790974800&v=beta&t=bJAzTzSdS66ySFA7rk6PtJragjFvkL5II-3EMcGoC6w"
+        }
+      ]
     },
     {
       "job": "Community organizer",
       "place": "Caribe dev",
       "timeCount": "2 years and 1 month",
       "link": "https://caribedev.org",
-      "image": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/work/work9.jpeg?raw=true"
+      "image": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/work/work9.jpeg?raw=true",
+      "description": "Co-led the developer community of Caribe Dev. - Created initiatives to engage developers, increasing community participation by 300%. - Planned and executed regional conferences, reaching over 200 participants. - Built sustainable communication frameworks to ensure long-term developer retention and engagement.",
+      "projects": [
+        {
+          "name": "Caribe dev page",
+          "description": "Central community page, where we compile all the information about the meetups on the atlantic coast of Colombia",
+          "image": "https://media.licdn.com/dms/image/v2/D4E2DAQE9FJ_1-EMq6g/profile-treasury-image-shrink_1280_1280/profile-treasury-image-shrink_1280_1280/0/1729279597127?e=1790974800&v=beta&t=klErAUkOZpjbmYTL5sEFLkHfF7g9zI0-avqTeRHzW1Y"
+        },
+        {
+          "name": "Caribe dev event",
+          "description": "Event about programming and tech talks",
+          "image": "https://media.licdn.com/dms/image/v2/D4E2DAQEIfMGqC8kTDQ/profile-treasury-image-shrink_1280_1280/profile-treasury-image-shrink_1280_1280/0/1685483627864?e=1790974800&v=beta&t=MGJMOzM_XLqw9U3ROhI1xAaYI4lRGHiX5xrfKQF6H2I"
+        }
+      ]
     },
     {
       "job": "Community organizer",
       "place": "BarranquillaJS",
       "timeCount": "6 years",
       "link": "https://barranquillajs.org",
-      "image": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/work/work8.jpeg?raw=true"
+      "image": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/work/work8.jpeg?raw=true",
+      "description": "Co-leader of the Barranquilla developer community. - Organized and hosted over 20+ workshops, conferences, and meetups to strengthen local developer engagement. - Established communication channels through social networks, forums, and chat groups to maintain community interaction. - Fostered relationships with local and international developers to promote collaboration and knowledge sharing.",
+      "projects": [
+        {
+          "name": "CityJS Medellin organizers",
+          "description": "People from JSconf colombia, MedellinJS y BarranquillaJS joined to make CityJS Medellin.",
+          "image": "https://media.licdn.com/dms/image/v2/D4E2DAQHhA_wIdnx6ug/profile-treasury-image-shrink_1280_1280/profile-treasury-image-shrink_1280_1280/0/1730240866547?e=1790974800&v=beta&t=WxClCSuUQU3Jx8IoND8oy26LmhFFxs9SX3IOA8wEADk"
+        },
+        {
+          "name": "BarranquillaJS meetup",
+          "description": "Meetup about tech, web, javascript and more topics.",
+          "image": "https://media.licdn.com/dms/image/v2/C4E2DAQGyBBjQOysKSw/profile-treasury-image-shrink_8192_8192/profile-treasury-image-shrink_8192_8192/0/1676425280099?e=1790974800&v=beta&t=7t7VUJvfpdavyoGRbN5jnjafy7wJ71BYUfZD_fMYVtE"
+        },
+        {
+          "name": "BarranquillaJs oficial page",
+          "description": "Central community page, where we compile all the information about the meetup",
+          "image": "https://media.licdn.com/dms/image/v2/D4E2DAQHxbbOtnVTzuw/profile-treasury-image-shrink_1280_1280/profile-treasury-image-shrink_1280_1280/0/1729279429093?e=1790974800&v=beta&t=VHEm57nqUPAeEBEtnkZD_WtPdusmNRQrmP_8cZR0H_Q"
+        }
+      ]
     },
     {
       "job": "Front End Developer",
       "place": "Crehana",
       "timeCount": "1 year and 1 month",
       "link": "https://www.crehana.com/",
-      "image": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/work/work2.jpeg?raw=true"
+      "image": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/work/work2.jpeg?raw=true",
+      "description": "Development of web and desktop applications with TypeScript and Electron. - Engineered robust TypeScript libraries used across multiple projects. - Improved desktop application performance by optimizing key Electron components. - Implemented user-centric features, enhancing the user experience of online education platforms.",
+      "projects": [
+        {
+          "name": "Crehana desktop app",
+          "description": "This is a project that brings the most important features of crehana web application to be available offline, such as watch classes, and course progression. I owned this project and the main contributor in the time that I was in the company.",
+          "image": "https://media.licdn.com/dms/image/v2/C4E2DAQFoxdUjUEJ93g/profile-treasury-image-shrink_1280_1280/profile-treasury-image-shrink_1280_1280/0/1676425599488?e=1790974800&v=beta&t=SWs496omM1xF0J0mPC1KoehTPKQRRSM57MBr2LADmDo"
+        },
+        {
+          "name": "Crehana web",
+          "description": "This is a web app to see online courses about education, skills and numerous topics. Here I helped the team to maintain and develop new features in the app.",
+          "image": "https://media.licdn.com/dms/image/v2/C4E2DAQHadxjtuhtUWg/profile-treasury-image-shrink_1280_1280/profile-treasury-image-shrink_1280_1280/0/1676425568080?e=1790974800&v=beta&t=FwFffpMbD_JrvYaMgQfeaxiKu3g9UAfaKL3JM3FU2os"
+        }
+      ]
     },
     {
       "job": "Front End Developer",
       "place": "Soluntech",
       "timeCount": "9 months",
       "link": "https://soluntech.com/",
-      "image": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/work/work3.jpeg?raw=true"
+      "image": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/work/work3.jpeg?raw=true",
+      "description": "Development of custom web applications using ReactJS. - Implemented responsive and accessible UI designs for web applications. - Delivered high-quality applications under tight deadlines, enhancing client satisfaction.",
+      "projects": [
+        {
+          "name": "Arm care",
+          "description": "This is a web app to see online courses about education, skills and numerous topics. Here I helped the team to maintain and develop new features in the ReactJS app.",
+          "image": "https://media.licdn.com/dms/image/v2/C4E2DAQGKFuaKnyJ24Q/profile-treasury-image-shrink_1280_1280/profile-treasury-image-shrink_1280_1280/0/1676425766785?e=1790978400&v=beta&t=pI0DimXWA6cYW2eSxwaxeM5DJgG22JwVPmTUX7oHbtk"
+        },
+        {
+          "name": "Bevtri",
+          "description": "This client required some new features for its WordPress and knack app.",
+          "image": "https://media.licdn.com/dms/image/v2/C4E2DAQHT6oLdt_qFPQ/profile-treasury-image-shrink_1280_1280/profile-treasury-image-shrink_1280_1280/0/1676425741950?e=1790978400&v=beta&t=L3JTnucOlhRoUa1am-JRGOEDLMzWNsyXccfMZC5w4FU"
+        },
+        {
+          "name": "Redcorn",
+          "description": "This client required some new features for its WordPress and knack app.",
+          "image": "https://media.licdn.com/dms/image/v2/C4E2DAQFKCavbPyPEJg/profile-treasury-image-shrink_1280_1280/profile-treasury-image-shrink_1280_1280/0/1676425694382?e=1790978400&v=beta&t=vSXtQxn5q-cwGM-aWegJduQ_mAL7G1LdNDvtS9MxWBo"
+        }
+      ]
     },
     {
       "job": "Full Stack Developer",
       "place": "iSofact",
       "timeCount": "2 years and 6 months",
       "link": "https://www.isofact.com/",
-      "image": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/work/work4.jpeg?raw=true"
+      "image": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/work/work4.jpeg?raw=true",
+      "description": "Developed web and mobile applications using modern frameworks. - Built scalable web applications using React, NextJS, Angular, and PHP. - Developed and deployed servers using Node.js, Socket.IO, and Ruby on Rails. - Streamlined DevOps processes with Docker, GitLab CI, and Travis CI for continuous integration and deployment.",
+      "skills": [
+        {
+          "name": "Daser global",
+          "description": "This client required some new features for its React Native app.",
+          "image": "https://media.licdn.com/dms/image/v2/C4E2DAQHFjwKu17wZvw/profile-treasury-image-shrink_1280_1280/profile-treasury-image-shrink_1280_1280/0/1676426240478?e=1790978400&v=beta&t=Cqo2Lf4co1fog6UhB3dbNel3MgziNNxxFMCRB2dvh6o"
+        },
+        {
+          "name": "Factiffy",
+          "description": "This client required some new features for its ionic app.",
+          "image": "https://media.licdn.com/dms/image/v2/C4E2DAQGfFlfVwsgawA/profile-treasury-image-shrink_1280_1280/profile-treasury-image-shrink_1280_1280/0/1676426099247?e=1790978400&v=beta&t=6S_u33IB02ph9cyE5EScExMnMPT12Fklx_gxIbv651E"
+        },
+        {
+          "name": "La bruja de oro",
+          "description": "This client required some new features for its react app.",
+          "image": "https://media.licdn.com/dms/image/v2/C4E2DAQF0qBsoEdzRoA/profile-treasury-image-shrink_1280_1280/profile-treasury-image-shrink_1280_1280/0/1676426053038?e=1790978400&v=beta&t=Ep2AD-k2YEcE2yLsXuNkNbed0NgZBi91F7uBAr1-hcY"
+        }
+      ]
     },
     {
       "job": "Acting CEO",
       "place": "Jezsy",
       "timeCount": "1 year and 1 month",
       "link": "https://www.linkedin.com/in/makinox/details/experience/",
-      "image": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/work/work5.jpeg?raw=true"
+      "image": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/work/work5.jpeg?raw=true",
+      "description": "Managed operations and development of the company platform. - Designed and developed a web application using React and Redux. - Implemented backend solutions with Ruby on Rails and Nginx. - Oversaw strategic planning to ensure sustainable growth of the company.",
+      "skills": [
+        {
+          "name": "Utopia1",
+          "description": "Software as a service for study entities.",
+          "image": "https://media.licdn.com/dms/image/v2/C512DAQGb7AVSSait9A/profile-treasury-image-shrink_1280_1280/profile-treasury-image-shrink_1280_1280/0/1598517427114?e=1790978400&v=beta&t=bY_iyjncRf7d3pl3bPHndkL5a_JsAy-uXaFRT6KIdQw"
+        }
+      ]
     },
     {
       "job": "Software Developer Lead",
       "place": "RegyPOS",
       "timeCount": "4 months",
       "link": "https://empresite.eleconomistaamerica.co/REGISTRADORAS-EQUIPOS-CARIBE-SAS.html",
-      "image": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/work/work6.jpeg?raw=true"
+      "image": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/work/work6.jpeg?raw=true",
+      "description": "Led software development projects with a focus on multi-platform solutions. - Designed and developed user-friendly software for various platforms. - Conducted UX research to align applications with user needs. - Architected scalable software solutions to meet evolving business requirements.",
+      "skills": [
+        {
+          "name": "Regypos",
+          "description": "Development of software products for companies.",
+          "image": "https://media.licdn.com/dms/image/v2/C512DAQH8ucUarDNO1w/profile-treasury-image-shrink_1280_1280/profile-treasury-image-shrink_1280_1280/0/1597675986099?e=1790978400&v=beta&t=dNznuk3hdUbhNvdwFkZcAY0jQJvLWKmXJVa4ND-UyFQ"
+        }
+      ]
     },
     {
       "job": "System assistant engineer",
@@ -695,6 +732,406 @@
       "timeCount": "6 months",
       "link": "https://www.grupocolba.com.co/",
       "image": "https://github.com/makinox/storageGarage/blob/main/images/portfolio/work/work7.jpeg?raw=true"
+    }
+  ],
+  "books": [
+    {
+      "title": "De la tierra a la luna",
+      "url": "https://es.wikipedia.org/wiki/De_la_Tierra_a_la_Luna"
+    },
+    {
+      "title": "La psicología del dinero",
+      "url": "https://en.wikipedia.org/wiki/The_Psychology_of_Money"
+    },
+    {
+      "title": "1984",
+      "url": "https://es.wikipedia.org/wiki/1984_(novela)"
+    },
+    {
+      "title": "Crimen y castigo",
+      "url": "https://es.wikipedia.org/wiki/Crimen_y_castigo"
+    },
+    {
+      "title": "El acto de crear",
+      "url": "https://es.wikipedia.org/wiki/Rick_Rubin"
+    },
+    {
+      "title": "Más allá del orden",
+      "url": "https://en.wikipedia.org/wiki/Beyond_Order"
+    },
+    {
+      "title": "La dama de las camelias",
+      "url": "https://es.wikipedia.org/wiki/La_dama_de_las_camelias"
+    },
+    {
+      "title": "Un mundo feliz",
+      "url": "https://es.wikipedia.org/wiki/Un_mundo_feliz"
+    },
+    {
+      "title": "Noches blancas",
+      "url": "https://es.wikipedia.org/wiki/Noches_blancas_(Dostoyevski)"
+    },
+    {
+      "title": "Memorias del subsuelo",
+      "url": "https://es.wikipedia.org/wiki/Memorias_del_subsuelo"
+    },
+    {
+      "title": "Este dolor no es mio",
+      "url": "https://liceocomercial.cl/biblioteca/doc/Este%20Dolor%20No%20Es%20Mio.pdf"
+    },
+    {
+      "title": "Más allá del bien y del mal",
+      "url": "https://es.wikipedia.org/wiki/M%C3%A1s_all%C3%A1_del_bien_y_del_mal"
+    },
+    {
+      "title": "En esta noche, en este mundo",
+      "url": "https://es.wikipedia.org/wiki/Alejandra_Pizarnik"
+    },
+    {
+      "title": "Fluir",
+      "url": "https://es.wikipedia.org/wiki/Mih%C3%A1ly_Cs%C3%ADkszentmih%C3%A1lyi"
+    },
+    {
+      "title": "Roba como un artista",
+      "url": "https://en.wikipedia.org/wiki/Steal_Like_an_Artist"
+    },
+    {
+      "title": "El conde de montecristo",
+      "url": "https://en.wikipedia.org/wiki/The_Count_of_Monte_Cristo"
+    },
+    {
+      "title": "El príncipe",
+      "url": "https://en.wikipedia.org/wiki/The_Prince"
+    },
+    {
+      "title": "Open socrates",
+      "url": "https://en.wikipedia.org/wiki/Open_Socrates"
+    },
+    {
+      "title": "Rebelión en la granja",
+      "url": "https://es.wikipedia.org/wiki/Rebeli%C3%B3n_en_la_granja"
+    },
+    {
+      "title": "De animales a dioses",
+      "url": "https://en.wikipedia.org/wiki/Sapiens:_A_Brief_History_of_Humankind"
+    },
+    {
+      "title": "Siddhartha",
+      "url": "https://es.wikipedia.org/wiki/Siddhartha_(novela)"
+    },
+    {
+      "title": "50 economics ideas",
+      "url": "https://en.wikipedia.org/wiki/Ed_Conway"
+    },
+    {
+      "title": "El jugador",
+      "url": "https://es.wikipedia.org/wiki/El_jugador_(Dostoyevski)"
+    },
+    {
+      "title": "Psicología de las masas",
+      "url": "https://es.wikipedia.org/wiki/Psicolog%C3%ADa_de_las_masas_y_an%C3%A1lisis_del_yo"
+    },
+    {
+      "title": "El mito de sísifo",
+      "url": "https://es.wikipedia.org/wiki/El_mito_de_S%C3%ADsifo"
+    },
+    {
+      "title": "Alicia en el país de las maravillas",
+      "url": "https://es.wikipedia.org/wiki/Las_aventuras_de_Alicia_en_el_pa%C3%ADs_de_las_maravillas"
+    },
+    {
+      "title": "A través del espejo",
+      "url": "https://en.wikipedia.org/wiki/Through_the_Looking-Glass"
+    },
+    {
+      "title": "El retrato de Dorian Gray",
+      "url": "https://es.wikipedia.org/wiki/El_retrato_de_Dorian_Gray"
+    },
+    {
+      "title": "La riqueza de las naciones",
+      "url": "https://es.wikipedia.org/wiki/La_riqueza_de_las_naciones"
+    },
+    {
+      "title": "La muerte de Iván Ilich",
+      "url": "https://es.wikipedia.org/wiki/La_muerte_de_Iv%C3%A1n_Ilich"
+    },
+    {
+      "title": "Confesiones",
+      "url": "https://es.wikipedia.org/wiki/Confesiones"
+    },
+    {
+      "title": "Anna Karenina",
+      "url": "https://es.wikipedia.org/wiki/Ana_Karenina"
+    },
+    {
+      "title": "Discurso del método",
+      "url": "https://es.wikipedia.org/wiki/Discurso_del_m%C3%A9todo"
+    },
+    {
+      "title": "Dune",
+      "url": "https://es.wikipedia.org/wiki/Dune"
+    },
+    {
+      "title": "El hombre más rico de babilonia",
+      "url": "https://en.wikipedia.org/wiki/The_Richest_Man_in_Babylon"
+    },
+    {
+      "title": "Say it out loud",
+      "url": "https://vasavikumar.com/orderthebook"
+    },
+    {
+      "title": "El fin de la infancia",
+      "url": "https://es.wikipedia.org/wiki/El_fin_de_la_infancia"
+    },
+    {
+      "title": "El lobo de wall street",
+      "url": "https://es.wikipedia.org/wiki/El_lobo_de_Wall_Street_(libro)"
+    },
+    {
+      "title": "El poder del ahora",
+      "url": "https://es.wikipedia.org/wiki/El_poder_del_Ahora"
+    },
+    {
+      "title": "Esto es agua",
+      "url": "https://es.wikipedia.org/wiki/Esto_es_agua"
+    },
+    {
+      "title": "El mapa del alma según jung",
+      "url": "https://es.wikipedia.org/wiki/Map_of_the_Soul:_Persona"
+    },
+    {
+      "title": "Don quijote de la mancha",
+      "url": "https://es.wikipedia.org/wiki/Don_Quijote_de_la_Mancha"
+    }
+  ],
+  "education": [
+    {
+      "title": "Devops and Software engineer, Bachelor's degree",
+      "institution": "Coursera",
+      "description": "Focused on mastering DevOps principles, automation, and cloud-native tools, completing practical projects in CI/CD and infrastructure as code. - Acquired comprehensive knowledge of DevOps principles, including CI/CD, containerization, and cloud platforms. - Completed capstone projects demonstrating proficiency in automating software pipelines and infrastructure as code.",
+      "date": "May 2023 – Dec 2024"
+    },
+    {
+      "title": "English Learning, English Language and Literature, General",
+      "institution": "Platzi",
+      "description": "Achieved English fluency through a comprehensive program, enhancing technical and professional communication skills. - Developed strong communication skills, particularly in technical and professional environments. - Gained fluency to deliver presentations, participate in meetings, and collaborate effectively in global teams.",
+      "date": "Sep 2021 – Jun 2023"
+    },
+    {
+      "title": "Android developer, Software",
+      "institution": "Platzi",
+      "description": "Developed expertise in Android app development, focusing on Java, Kotlin, and performance optimization. - Built and deployed Android applications using Java and Kotlin. - Learned best practices for user interface design, optimization, and app performance.",
+      "date": "Feb 2019 – Feb 2020"
+    },
+    {
+      "title": "JavaScript Development, Computer Software Engineering",
+      "institution": "Platzi",
+      "description": "Mastered core JavaScript concepts and created interactive web applications with modern best practices. - Learned core concepts of JavaScript, including ES6+ features and asynchronous programming. - Implemented dynamic web applications and interactive user interfaces.",
+      "date": "Jan 2018 – Oct 2018"
+    },
+    {
+      "title": "Frontend Architecture, Computer Software Engineering",
+      "institution": "Platzi",
+      "description": "Specialized in designing scalable frontend solutions using modular and reusable components. - Specialized in building scalable and maintainable frontend architectures. - Gained expertise in modular design, reusable components, and state management. - Delivered projects following modern frameworks and tools like React and Webpack.",
+      "date": "Jan 2018 – Oct 2018"
+    },
+    {
+      "title": "React Development, Computer Software Engineering",
+      "institution": "Platzi",
+      "description": "Built dynamic web applications using React, focusing on performance and state management. - Designed dynamic and interactive SPAs with optimal performance. - Gained a strong understanding of component lifecycle and advanced hooks.",
+      "date": "Apr 2018 – Sep 2018"
+    },
+    {
+      "title": "Backend Development with ruby, Computer Software Engineering",
+      "institution": "Platzi",
+      "description": "Learned to create scalable web applications using Ruby on Rails, emphasizing clean code and performance. - Built RESTful APIs and web applications using Ruby and Ruby on Rails. - Improved backend performance by implementing optimized database queries.",
+      "date": "Oct 2017 – Sep 2018"
+    },
+    {
+      "title": "Programming fundamentals, Computer Software Engineering",
+      "institution": "Platzi",
+      "description": "Activities and societies: Developed strong programming foundations, including algorithms, Git workflows, and computational thinking. - Mastered foundational concepts in algorithms, data structures, and problem-solving. - Developed a strong understanding of Git and version control workflows.",
+      "date": "Mar 2018 – Aug 2018"
+    },
+    {
+      "title": "Professional IT Systems Technician, Tecnología informática/Tecnología de sistemas informáticos",
+      "institution": "ITSA",
+      "description": "Gained hands-on experience with IT systems, networking, and hardware/software optimization. - Gained proficiency in troubleshooting IT systems and networks. - Built expertise in hardware and software configurations for business environments. - Applied learnings through internships focused on IT support and system optimization.",
+      "date": "2017 – 2018"
+    },
+    {
+      "title": "Full Stack Web Development, Ingeniería de software",
+      "institution": "freeCodeCamp",
+      "description": "Completed a robust curriculum in frontend and backend development, deploying full-stack applications. - Built and deployed full-stack applications using Node.js, Express, MongoDB, and React. - Contributed to open-source projects and developed real-world web solutions.",
+      "date": "2017 – 2018"
+    },
+    {
+      "title": "Tecnico de telecomunicaciones, Computer Programming, Specific Applications",
+      "institution": "ITSA",
+      "description": "Specialized in programming and optimizing telecommunication systems for real-world applications. - Learned to analyze and optimize communication network performance. - Achieved a perfect score in hands-on modules of telecommunications programming.",
+      "date": "Feb 2016 – Aug 2017"
+    }
+  ],
+  "certificates": [
+    {
+      "title": "DevOps Capstone Project",
+      "institution": "IBM",
+      "date": "Issued Dec 2024"
+    },
+    {
+      "title": "Monitoring and Observability for Development and DevOps",
+      "institution": "IBM",
+      "date": "Issued Nov 2024"
+    },
+    {
+      "title": "Application Security for Developers and DevOps Professionals",
+      "institution": "IBM",
+      "date": "Issued Nov 2024"
+    },
+    {
+      "title": "Continuous Integration and Continuous Delivery (CI/CD)",
+      "institution": "IBM",
+      "date": "Issued Nov 2024"
+    },
+    {
+      "title": "Introduction to Test and Behavior Driven Development",
+      "institution": "IBM",
+      "date": "Issued Nov 2024"
+    },
+    {
+      "title": "Application Development using Microservices and Serverless",
+      "institution": "IBM",
+      "date": "Issued Nov 2024"
+    },
+    {
+      "title": "Introduction to Containers w/ Docker, Kubernetes & OpenShift",
+      "institution": "IBM",
+      "date": "Issued Nov 2024"
+    },
+    {
+      "title": "Developing AI Applications with Python and Flask",
+      "institution": "IBM",
+      "date": "Issued Nov 2024"
+    },
+    {
+      "title": "Python for Data Science, AI & Development",
+      "institution": "IBM",
+      "date": "Issued Nov 2024"
+    },
+    {
+      "title": "Linux Commands and shell scripting",
+      "institution": "IBM",
+      "date": "Issued Nov 2024"
+    },
+    {
+      "title": "IBM Getting Started with Git and GitHub",
+      "institution": "IBM",
+      "date": "Issued Nov 2024"
+    },
+    {
+      "title": "Introduction to DevOps",
+      "institution": "IBM",
+      "date": "Issued Sep 2023"
+    },
+    {
+      "title": "Introduction to Software Engineering",
+      "institution": "IBM",
+      "date": "Issued Sep 2023"
+    },
+    {
+      "title": "Introduction to Agile Development and Scrum",
+      "institution": "IBM",
+      "date": "Issued Aug 2023"
+    },
+    {
+      "title": "Introduction to Cloud Computing",
+      "institution": "IBM",
+      "date": "Issued Aug 2023"
+    },
+    {
+      "title": "Creación de contenido con IA",
+      "institution": "Platzi",
+      "date": "Issued Mar 2023"
+    },
+    {
+      "title": "Curso Básico de Python",
+      "institution": "Platzi",
+      "date": "Issued Oct 2020"
+    },
+    {
+      "title": "Curso de Estadística Computacional con Python",
+      "institution": "Platzi",
+      "date": "Issued Oct 2020"
+    },
+    {
+      "title": "Curso de Backend con Node.js",
+      "institution": "Platzi",
+      "date": "Issued Oct 2020"
+    },
+    {
+      "title": "Curso de Escritura Online",
+      "institution": "Platzi",
+      "date": "Issued Oct 2020"
+    },
+    {
+      "title": "Curso de ECMAScript 6",
+      "institution": "Platzi",
+      "date": "Issued Oct 2020"
+    },
+    {
+      "title": "Curso de Introducción al Pensamiento Computacional con Python",
+      "institution": "Platzi",
+      "date": "Issued Oct 2020"
+    },
+    {
+      "title": "Curso de Desarrollo de Aplicaciones Web con Gatsby JS",
+      "institution": "Platzi",
+      "date": "Issued Sep 2020"
+    },
+    {
+      "title": "Curso Avanzado de Flutter",
+      "institution": "Platzi",
+      "date": "Issued Sep 2020"
+    },
+    {
+      "title": "Breeze Hackathon workshop",
+      "institution": "Avaya",
+      "date": "Issued Apr 2018"
+    },
+    {
+      "title": "CCNA Routing & Switching: Principios básicos de routing y switching",
+      "institution": "Cisco",
+      "date": "Issued Apr 2017"
+    },
+    {
+      "title": "IT Essentials 5.0",
+      "institution": "Cisco",
+      "date": "Issued May 2017"
+    },
+    {
+      "title": "CCNA Switching & Routing: Introducción a redes",
+      "institution": "Cisco",
+      "date": "Issued Apr 2017"
+    },
+    {
+      "title": "SQL Fundamentals",
+      "institution": "Sololearn",
+      "date": "Issued Oct 2017"
+    },
+    {
+      "title": "Ruby Tutorial",
+      "institution": "Sololearn",
+      "date": "Issued Oct 2017"
+    },
+    {
+      "title": "Java Tutorial",
+      "institution": "Sololearn",
+      "date": "Issued Sep 2017"
+    },
+    {
+      "title": "HTML Fundamentals",
+      "institution": "Sololearn",
+      "date": "Issued May 2017"
     }
   ]
 }
