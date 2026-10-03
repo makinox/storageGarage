@@ -1,7 +1,7 @@
 ---
 idx: "033"
 title: "La conversación cortada"
-date: "2026-10-01"
+date: "2026-10-03"
 timage: "https://github.com/makinox/storageGarage/blob/main/images/blog/033/0.png?raw=true"
 author: "Jesús Bossa"
 authorImage: "https://github.com/makinox/storageGarage/blob/main/images/general/me.jpeg?raw=true"
