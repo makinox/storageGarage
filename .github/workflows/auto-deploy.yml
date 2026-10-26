@@ -2,12 +2,12 @@ name: Auto Deploy Projects
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
     paths:
-      - 'staticDbs/portfolioData.json'
-      - 'images/portfolio/**'
-      - 'archive/**'
-      - 'images/blog/**'
+      - "staticDbs/portfolioData.json"
+      - "images/portfolio/**"
+      - "archive/**"
+      - "images/blog/**"
 
 jobs:
   detect-changes:
@@ -29,7 +29,7 @@ jobs:
           else
             echo "portfolio=false" >> $GITHUB_OUTPUT
           fi
-          
+
           if git diff --name-only HEAD~1 | grep -E "archive/|images/blog/" > /dev/null; then
             echo "blog=true" >> $GITHUB_OUTPUT
           else
@@ -59,8 +59,8 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
-          cache: 'yarn'
+          node-version: "20"
+          cache: "yarn"
 
       - name: Install dependencies
         run: yarn install --frozen-lockfile
@@ -69,12 +69,12 @@ jobs:
         run: yarn build
 
       - name: Deploy to Firebase
-        uses: FirebaseExtended/action-hosting-deploy@v0
-        with:
-          repoToken: '${{ secrets.PERSONAL_ACCESS_TOKEN }}'
-          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_PORTFOLIO }}'
-          channelId: live
-          projectId: ${{ secrets.FIREBASE_PROJECT_ID_PORTFOLIO }}
+        env:
+          FIREBASE_SERVICE_ACCOUNT_JSON: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_PORTFOLIO }}
+        run: |
+          echo "$FIREBASE_SERVICE_ACCOUNT_JSON" > ./service-account.json
+          export GOOGLE_APPLICATION_CREDENTIALS="./service-account.json"
+          npx firebase-tools@13.31.0 deploy --only hosting --project ${{ secrets.FIREBASE_PROJECT_ID_PORTFOLIO }} --non-interactive
 
       - name: Notify deployment
         run: |
@@ -102,8 +102,8 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
-          cache: 'yarn'
+          node-version: "20"
+          cache: "yarn"
 
       - name: Install dependencies
         run: yarn install --frozen-lockfile
@@ -112,12 +112,12 @@ jobs:
         run: yarn build
 
       - name: Deploy to Firebase
-        uses: FirebaseExtended/action-hosting-deploy@v0
-        with:
-          repoToken: '${{ secrets.PERSONAL_ACCESS_TOKEN }}'
-          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_BLOG }}'
-          channelId: live
-          projectId: ${{ secrets.FIREBASE_PROJECT_ID_BLOG }}
+        env:
+          FIREBASE_SERVICE_ACCOUNT_JSON: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_BLOG }}
+        run: |
+          echo "$FIREBASE_SERVICE_ACCOUNT_JSON" > ./service-account.json
+          export GOOGLE_APPLICATION_CREDENTIALS="./service-account.json"
+          npx firebase-tools@13.31.0 deploy --only hosting --project ${{ secrets.FIREBASE_PROJECT_ID_BLOG }} --non-interactive
 
       - name: Notify deployment
         run: |
@@ -133,7 +133,7 @@ jobs:
         run: |
           echo "## 🚀 Auto Deploy Summary" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
-          
+
           if [[ "${{ needs.detect-changes.outputs.portfolio-changed }}" == "true" ]]; then
             if [[ "${{ needs.deploy-portfolio.result }}" == "success" ]]; then
               echo "✅ **Portfolio**: Deployed successfully" >> $GITHUB_STEP_SUMMARY
@@ -141,7 +141,7 @@ jobs:
               echo "❌ **Portfolio**: Deployment failed" >> $GITHUB_STEP_SUMMARY
             fi
           fi
-          
+
           if [[ "${{ needs.detect-changes.outputs.blog-changed }}" == "true" ]]; then
             if [[ "${{ needs.deploy-blog.result }}" == "success" ]]; then
               echo "✅ **Blog**: Deployed successfully" >> $GITHUB_STEP_SUMMARY
@@ -149,9 +149,9 @@ jobs:
               echo "❌ **Blog**: Deployment failed" >> $GITHUB_STEP_SUMMARY
             fi
           fi
-          
+
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "**Changed files detected:**" >> $GITHUB_STEP_SUMMARY
           git diff --name-only HEAD~1 | while read file; do
             echo "- \`$file\`" >> $GITHUB_STEP_SUMMARY
-          done 
+          done

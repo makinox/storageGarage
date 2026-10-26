@@ -4,17 +4,17 @@ on:
   workflow_dispatch:
     inputs:
       deploy_portfolio:
-        description: 'Deploy Portfolio'
+        description: "Deploy Portfolio"
         required: false
         default: false
         type: boolean
       deploy_blog:
-        description: 'Deploy Blog'
+        description: "Deploy Blog"
         required: false
         default: false
         type: boolean
       force_deploy:
-        description: 'Force deploy even if no changes detected'
+        description: "Force deploy even if no changes detected"
         required: false
         default: false
         type: boolean
@@ -44,7 +44,7 @@ jobs:
             exit 1
           fi
           echo "✅ All required secrets are configured"
-      
+
       - name: Checkout portfolio repository
         uses: actions/checkout@v4
         with:
@@ -74,8 +74,8 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
-          cache: 'yarn'
+          node-version: "20"
+          cache: "yarn"
 
       - name: Install dependencies
         run: yarn install --frozen-lockfile
@@ -84,12 +84,12 @@ jobs:
         run: yarn build
 
       - name: Deploy to Firebase
-        uses: FirebaseExtended/action-hosting-deploy@v0
-        with:
-          repoToken: '${{ secrets.PERSONAL_ACCESS_TOKEN }}'
-          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_PORTFOLIO }}'
-          channelId: live
-          projectId: ${{ secrets.FIREBASE_PROJECT_ID_PORTFOLIO }}
+        env:
+          FIREBASE_SERVICE_ACCOUNT_JSON: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_PORTFOLIO }}
+        run: |
+          echo "$FIREBASE_SERVICE_ACCOUNT_JSON" > ./service-account.json
+          export GOOGLE_APPLICATION_CREDENTIALS="./service-account.json"
+          npx firebase-tools@13.31.0 deploy --only hosting --project ${{ secrets.FIREBASE_PROJECT_ID_PORTFOLIO }} --non-interactive
 
       - name: Notify deployment
         run: |
@@ -119,7 +119,7 @@ jobs:
             exit 1
           fi
           echo "✅ All required secrets are configured"
-      
+
       - name: Checkout blog repository
         uses: actions/checkout@v4
         with:
@@ -147,8 +147,8 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
-          cache: 'yarn'
+          node-version: "20"
+          cache: "yarn"
 
       - name: Install dependencies
         run: yarn install --frozen-lockfile
@@ -157,12 +157,12 @@ jobs:
         run: yarn build
 
       - name: Deploy to Firebase
-        uses: FirebaseExtended/action-hosting-deploy@v0
-        with:
-          repoToken: '${{ secrets.PERSONAL_ACCESS_TOKEN }}'
-          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_BLOG }}'
-          channelId: live
-          projectId: ${{ secrets.FIREBASE_PROJECT_ID_BLOG }}
+        env:
+          FIREBASE_SERVICE_ACCOUNT_JSON: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_BLOG }}
+        run: |
+          echo "$FIREBASE_SERVICE_ACCOUNT_JSON" > ./service-account.json
+          export GOOGLE_APPLICATION_CREDENTIALS="./service-account.json"
+          npx firebase-tools@13.31.0 deploy --only hosting --project ${{ secrets.FIREBASE_PROJECT_ID_BLOG }} --non-interactive
 
       - name: Notify deployment
         run: |
@@ -188,7 +188,7 @@ jobs:
           echo "- Blog: ${{ inputs.deploy_blog }}" >> $GITHUB_STEP_SUMMARY
           echo "- Force Deploy: ${{ inputs.force_deploy }}" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
-          
+
           if [[ "${{ inputs.deploy_portfolio }}" == "true" ]]; then
             if [[ "${{ needs.deploy-portfolio.result }}" == "success" ]]; then
               echo "✅ **Portfolio**: Deployed successfully" >> $GITHUB_STEP_SUMMARY
@@ -198,7 +198,7 @@ jobs:
               echo "❌ **Portfolio**: Deployment failed" >> $GITHUB_STEP_SUMMARY
             fi
           fi
-          
+
           if [[ "${{ inputs.deploy_blog }}" == "true" ]]; then
             if [[ "${{ needs.deploy-blog.result }}" == "success" ]]; then
               echo "✅ **Blog**: Deployed successfully" >> $GITHUB_STEP_SUMMARY
@@ -208,12 +208,12 @@ jobs:
               echo "❌ **Blog**: Deployment failed" >> $GITHUB_STEP_SUMMARY
             fi
           fi
-          
+
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "**Triggered by:** Manual workflow dispatch" >> $GITHUB_STEP_SUMMARY
-          
+
           # Debug information
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "**Debug Info:**" >> $GITHUB_STEP_SUMMARY
           echo "- Portfolio result: ${{ needs.deploy-portfolio.result }}" >> $GITHUB_STEP_SUMMARY
-          echo "- Blog result: ${{ needs.deploy-blog.result }}" >> $GITHUB_STEP_SUMMARY 
+          echo "- Blog result: ${{ needs.deploy-blog.result }}" >> $GITHUB_STEP_SUMMARY
