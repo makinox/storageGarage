@@ -1,7 +1,7 @@
 ---
 idx: "037"
 title: "Velocidad"
-date: "2026-10-26"
+date: "2026-10-29"
 timage: "https://github.com/makinox/storageGarage/blob/main/images/blog/037/0.png?raw=true"
 author: "Jesús Bossa"
 authorImage: "https://github.com/makinox/storageGarage/blob/main/images/general/me.jpeg?raw=true"
