@@ -48,18 +48,16 @@ jobs:
           token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
 
       - name: Setup environment variables
+        env:
+          PORTFOLIO_SOURCE_SECRET: ${{ secrets.PORTFOLIO_SOURCE }}
         run: |
-          echo "Setting up environment variables for portfolio build..."
-          echo "PORTFOLIO_SOURCE=${{ secrets.PORTFOLIO_SOURCE }}" >> $GITHUB_ENV
-          echo "PUBLIC_PORTFOLIO_SOURCE=${{ secrets.PORTFOLIO_SOURCE }}" >> $GITHUB_ENV
-          echo "Environment variables set:"
-          echo "PORTFOLIO_SOURCE: $PORTFOLIO_SOURCE"
-          echo "PUBLIC_PORTFOLIO_SOURCE: $PUBLIC_PORTFOLIO_SOURCE"
+          echo "PORTFOLIO_SOURCE=$PORTFOLIO_SOURCE_SECRET" >> $GITHUB_ENV
+          echo "PUBLIC_PORTFOLIO_SOURCE=$PORTFOLIO_SOURCE_SECRET" >> $GITHUB_ENV
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "24"
           cache: "yarn"
 
       - name: Install dependencies
@@ -71,10 +69,11 @@ jobs:
       - name: Deploy to Firebase
         env:
           FIREBASE_SERVICE_ACCOUNT_JSON: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_PORTFOLIO }}
+          FIREBASE_PROJECT_ID: ${{ secrets.FIREBASE_PROJECT_ID_PORTFOLIO }}
         run: |
           echo "$FIREBASE_SERVICE_ACCOUNT_JSON" > ./service-account.json
           export GOOGLE_APPLICATION_CREDENTIALS="./service-account.json"
-          npx firebase-tools@13.31.0 deploy --only hosting --project ${{ secrets.FIREBASE_PROJECT_ID_PORTFOLIO }} --non-interactive
+          npx firebase-tools@15.35.0 deploy --only hosting --project "$FIREBASE_PROJECT_ID" --non-interactive
 
       - name: Notify deployment
         run: |
@@ -93,16 +92,15 @@ jobs:
           token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
 
       - name: Setup environment variables for blog
+        env:
+          PUBLIC_API_ORIGIN_SECRET: ${{ secrets.PUBLIC_API_ORIGIN }}
         run: |
-          echo "Setting up environment variables for blog build..."
-          echo "PUBLIC_API_ORIGIN=${{ secrets.PUBLIC_API_ORIGIN }}" >> $GITHUB_ENV
-          echo "Environment variables set:"
-          echo "PUBLIC_API_ORIGIN: $PUBLIC_API_ORIGIN"
+          echo "PUBLIC_API_ORIGIN=$PUBLIC_API_ORIGIN_SECRET" >> $GITHUB_ENV
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "24"
           cache: "yarn"
 
       - name: Install dependencies
@@ -114,10 +112,11 @@ jobs:
       - name: Deploy to Firebase
         env:
           FIREBASE_SERVICE_ACCOUNT_JSON: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_BLOG }}
+          FIREBASE_PROJECT_ID: ${{ secrets.FIREBASE_PROJECT_ID_BLOG }}
         run: |
           echo "$FIREBASE_SERVICE_ACCOUNT_JSON" > ./service-account.json
           export GOOGLE_APPLICATION_CREDENTIALS="./service-account.json"
-          npx firebase-tools@13.31.0 deploy --only hosting --project ${{ secrets.FIREBASE_PROJECT_ID_BLOG }} --non-interactive
+          npx firebase-tools@15.35.0 deploy --only hosting --project "$FIREBASE_PROJECT_ID" --non-interactive
 
       - name: Notify deployment
         run: |
@@ -129,6 +128,11 @@ jobs:
     runs-on: ubuntu-latest
     if: always()
     steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
       - name: Deployment Summary
         run: |
           echo "## 🚀 Auto Deploy Summary" >> $GITHUB_STEP_SUMMARY
